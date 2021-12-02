@@ -76,7 +76,7 @@ public class LampPostPole extends HorizontalDecoBlock {
 
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState state) {
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
 
         BlockState blockstate = worldIn.getBlockState(pos);
 
@@ -95,6 +95,7 @@ public class LampPostPole extends HorizontalDecoBlock {
         if (blockstate.getBlock() == ModBlocks.LAMP_POST_POLE_WREATH_MULTI.get()) {
             worldIn.addEntity(new ItemEntity((World) worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Item.getItemFromBlock(ModBlocks.CHRISTMAS_WREATH_MULTI_LIGHTS.get()))));
         }
+        super.onBlockHarvested(worldIn, pos, state, player);
     }
 
 

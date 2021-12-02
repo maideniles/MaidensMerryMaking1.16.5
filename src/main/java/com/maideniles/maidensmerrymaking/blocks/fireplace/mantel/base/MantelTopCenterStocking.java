@@ -102,7 +102,7 @@ public class MantelTopCenterStocking extends MantelDecoBlock {
 
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState state) {
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
 
         Boolean top_left = Boolean.TRUE;
         Boolean top_middle = Boolean.TRUE;
@@ -215,7 +215,7 @@ public class MantelTopCenterStocking extends MantelDecoBlock {
             //destroy block 1 blocks down and 1 to left//
             worldIn.setBlockState(pos.down().north(), Blocks.AIR.getDefaultState(), 35);
         }
-
+        super.onBlockHarvested(worldIn, pos, state, player);
     }
 
     @Override

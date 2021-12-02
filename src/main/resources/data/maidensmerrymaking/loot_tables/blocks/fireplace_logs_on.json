@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "maidensmerrymaking:fireplace_logs_on"
+          "name": "maidensmerrymaking:fireplace_logs"
         }
       ],
       "conditions": [

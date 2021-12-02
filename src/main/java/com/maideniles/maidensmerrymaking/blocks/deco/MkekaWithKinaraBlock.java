@@ -89,10 +89,10 @@ public class MkekaWithKinaraBlock extends HorizontalDecoBlock{
 
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState p_176206_3_) {
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
 
         worldIn.addEntity(new ItemEntity((World) worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Item.getItemFromBlock(ModBlocks.MKEKA.get()), 1)));
-
+        super.onBlockHarvested(worldIn, pos, state, player);
     }
 
 

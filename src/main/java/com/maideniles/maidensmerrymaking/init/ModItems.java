@@ -2,6 +2,9 @@ package com.maideniles.maidensmerrymaking.init;
 
 import com.maideniles.maidensmerrymaking.MaidensMerryMaking;
 import com.maideniles.maidensmerrymaking.items.MintBottleItem;
+import com.maideniles.maidensmerrymaking.items.armor.RedChristmasArmorItem;
+import com.maideniles.maidensmerrymaking.items.armor.ReindeerEarsArmorItem;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -191,6 +194,41 @@ public class ModItems {
 
     public static final RegistryObject<Item> CANDLES_GREEN = ITEMS.register("green_candle",
             () -> new Item(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+
+    //ARMOR--NOT QUITE READY YET BUT GETTING THERE//
+    public static final RegistryObject<Item> SANTA_HAT_RED = ITEMS.register("red_santa_hat",
+            () -> new RedChristmasArmorItem(ModArmorMaterial.RED_SANTA_HAT, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> UGLY_SWEATER_RED = ITEMS.register("red_ugly_christmas_sweater",
+            () -> new ArmorItem(ModArmorMaterial.RED_WOOL, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> PLAID_PAJAMA_PANTS = ITEMS.register("plaid_pajama_pants",
+            () -> new ArmorItem(ModArmorMaterial.RED_WOOL, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> REINDEER_SLIPPERS = ITEMS.register("reindeer_slippers",
+            () -> new ArmorItem(ModArmorMaterial.RED_WOOL, EquipmentSlotType.FEET,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> REINDEER_EARS = ITEMS.register("reindeer_ears",
+            () -> new ReindeerEarsArmorItem(ModArmorMaterial.REINDEER_EARS, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> UGLY_SWEATER_GREEN = ITEMS.register("green_ugly_christmas_sweater",
+            () -> new ArmorItem(ModArmorMaterial.GREEN_WOOL, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> STRIPED_PAJAMA_PANTS = ITEMS.register("striped_pajama_pants",
+            () -> new ArmorItem(ModArmorMaterial.GREEN_WOOL, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> SANTA_SLIPPERS = ITEMS.register("santa_slippers",
+            () -> new ArmorItem(ModArmorMaterial.GREEN_WOOL, EquipmentSlotType.FEET,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
 
 
 

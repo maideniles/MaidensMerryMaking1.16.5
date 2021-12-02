@@ -86,11 +86,11 @@ public class LampPostOn extends HorizontalDecoBlock {
     }
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState state) {
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
 
 
         worldIn.addEntity(new ItemEntity((World) worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Items.TORCH, 1)));
-
+        super.onBlockHarvested(worldIn, pos, state, player);
     }
 
 

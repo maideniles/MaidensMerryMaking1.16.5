@@ -5,6 +5,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.item.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -32,7 +33,7 @@ public class PresentBlock extends Block {
     }
 
     @Override
-    public void onPlayerDestroy(IWorld world, BlockPos pos, BlockState state)  {
+    public void onBlockHarvested(World world, BlockPos pos, BlockState state, PlayerEntity player){
         Random rand = new Random();
         Integer gift_id = rand.nextInt(20);
         Integer gift_count = inclusiveBoundedRandom(rand,1,5);
@@ -123,7 +124,7 @@ public class PresentBlock extends Block {
             world.addEntity(new ItemEntity((World) world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Items.BEE_NEST,gift_count)));
 
         }
-
+        super.onBlockHarvested(world, pos, state, player);
     }
 
     private static int inclusiveBoundedRandom(Random random, int min, int max) {

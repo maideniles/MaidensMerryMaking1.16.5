@@ -107,7 +107,7 @@ public class MkekaBlock extends HorizontalDecoBlock{
 
 }
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState p_176206_3_) {
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
 Block corn = worldIn.getBlockState(pos).getBlock();
 
 if(corn == ModBlocks.MKEKA_WITH_CORN_1.get()){
@@ -123,7 +123,7 @@ if(corn == ModBlocks.MKEKA_WITH_CORN_1.get()){
             worldIn.addEntity(new ItemEntity((World) worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(ModItems.CORN.get(),3)));
             System.out.println("DROPPED 3 CORN");
         }
-
+        super.onBlockHarvested(worldIn, pos, state, player);
     }
 
 

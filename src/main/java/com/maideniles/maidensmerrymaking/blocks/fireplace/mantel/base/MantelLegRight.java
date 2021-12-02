@@ -6,6 +6,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.item.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.state.properties.BlockStateProperties;
@@ -50,7 +51,7 @@ public class MantelLegRight extends HorizontalDecoBlock {
     }
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState state){
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player){
 
         Boolean top_left = Boolean.TRUE;
         Boolean top_middle = Boolean.TRUE;
@@ -165,7 +166,7 @@ public class MantelLegRight extends HorizontalDecoBlock {
             //destroy block 2 blocks to left//
             worldIn.setBlockState(pos.south(2), Blocks.AIR.getDefaultState(), 35);
         }
-
+        super.onBlockHarvested(worldIn, pos, state, player);
 
     }
 

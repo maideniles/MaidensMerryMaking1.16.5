@@ -104,8 +104,13 @@ worldIn.setBlockState(pos,this.getDefaultState().with(FACING, state.get(MantelTo
         return ActionResultType.SUCCESS;
     }
 
+
+
+
+
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState state){
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
+
 
         Boolean top_left = Boolean.TRUE;
         Boolean top_middle = Boolean.TRUE;
@@ -221,7 +226,7 @@ worldIn.setBlockState(pos,this.getDefaultState().with(FACING, state.get(MantelTo
             worldIn.setBlockState(pos.down().south(2), Blocks.AIR.getDefaultState(), 35);
 
         }
-
+        super.onBlockHarvested(worldIn, pos, state, player);
 
     }
 

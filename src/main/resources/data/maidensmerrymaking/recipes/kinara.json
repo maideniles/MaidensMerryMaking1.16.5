@@ -13,15 +13,15 @@
     },
 	
 	"R": {
-      "item": "minecraft:red_candle"
+      "item": "maidensmerrymaking:red_candle"
     },
 	
 	"B": {
-      "item": "minecraft:black_candle"
+      "item": "maidensmerrymaking:black_candle"
     },
 	
 	"G": {
-      "item": "minecraft:green_candle"
+      "item": "maidensmerrymaking:green_candle"
     }
 	
 	

@@ -4,11 +4,13 @@ package com.maideniles.maidensmerrymaking.blocks.tree.decorated;
 import com.maideniles.maidensmerrymaking.init.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorld;
+import net.minecraft.world.World;
 
 
 public class DecoratedTreeBottomBlock extends Block {
@@ -26,8 +28,8 @@ public class DecoratedTreeBottomBlock extends Block {
     }
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState p_176206_3_) {
-        super.onPlayerDestroy(worldIn, pos, p_176206_3_);
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
+        super.onBlockHarvested(worldIn, pos, state,player);
 
 
 

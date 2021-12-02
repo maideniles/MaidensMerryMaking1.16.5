@@ -54,8 +54,8 @@ public class DecoratedTreeTopBlock extends BushBlock {
     }
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState p_176206_3_) {
-        super.onPlayerDestroy(worldIn, pos, p_176206_3_);
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
+        super.onBlockHarvested(worldIn, pos, state,player);
 
 
         BlockState blockstate = worldIn.getBlockState(pos);
@@ -77,7 +77,7 @@ public class DecoratedTreeTopBlock extends BushBlock {
             System.out.println("NO MORE TREE");
 
         }
-
+super.onBlockHarvested(worldIn,pos,state,player);
     }
 
     @Override

@@ -111,7 +111,7 @@ public class MantelTopLeftStocking extends HorizontalDecoBlock {
     }
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState state) {
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
 
         Boolean top_left = Boolean.TRUE;
         Boolean top_middle = Boolean.TRUE;
@@ -232,7 +232,7 @@ public class MantelTopLeftStocking extends HorizontalDecoBlock {
 
         }
 
-
+        super.onBlockHarvested(worldIn, pos, state, player);
     }
 
     @Override

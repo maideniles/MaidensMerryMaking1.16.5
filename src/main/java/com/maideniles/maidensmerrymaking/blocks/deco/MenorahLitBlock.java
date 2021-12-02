@@ -4,6 +4,7 @@ import com.maideniles.maidensmerrymaking.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.item.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
@@ -52,10 +53,11 @@ public class MenorahLitBlock extends HorizontalDecoBlock{
 
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState p_176206_3_) {
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
 
         worldIn.addEntity(new ItemEntity((World) worldIn, pos.getX(), pos.getY(), pos.getZ(),  new ItemStack(ModItems.CANDLES.get(),8)));
 
         System.out.println("DROPPED_CANDLES");
+        super.onBlockHarvested(worldIn, pos, state, player);
     }
 }

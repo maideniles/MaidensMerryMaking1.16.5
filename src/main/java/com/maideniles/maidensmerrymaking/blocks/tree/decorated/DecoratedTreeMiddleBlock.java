@@ -6,12 +6,14 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BushBlock;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorld;
+import net.minecraft.world.World;
 
 
 public class DecoratedTreeMiddleBlock extends BushBlock {
@@ -50,8 +52,8 @@ public class DecoratedTreeMiddleBlock extends BushBlock {
 
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState p_176206_3_) {
-        super.onPlayerDestroy(worldIn, pos, p_176206_3_);
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
+
 
         BlockState blockstate = worldIn.getBlockState(pos);
         BlockState blockstate2 = worldIn.getBlockState(pos.down());
@@ -66,7 +68,7 @@ public class DecoratedTreeMiddleBlock extends BushBlock {
             worldIn.setBlockState(pos, Blocks.AIR.getDefaultState(), 35);
             System.out.println("NO MORE TREE");
         }
-
+super.onBlockHarvested(worldIn,pos,state,player);
     }
 
 }

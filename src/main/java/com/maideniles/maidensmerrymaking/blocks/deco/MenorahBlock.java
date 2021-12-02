@@ -79,9 +79,10 @@ public class MenorahBlock extends HorizontalDecoBlock{
 
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState p_176206_3_) {
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
         worldIn.addEntity(new ItemEntity((World) worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Items.TORCH, 1)));
 
         System.out.println("DROPPED_CANDLES");
+        super.onBlockHarvested(worldIn, pos, state, player);
     }
 }

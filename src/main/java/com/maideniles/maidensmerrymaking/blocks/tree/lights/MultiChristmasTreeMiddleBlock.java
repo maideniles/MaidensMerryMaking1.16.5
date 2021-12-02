@@ -51,7 +51,7 @@ public class MultiChristmasTreeMiddleBlock extends BushBlock {
     }
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState p_176206_3_)  {
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
         BlockState blockstate = worldIn.getBlockState(pos);
         BlockState blockstate2 = worldIn.getBlockState(pos.up());
         if (blockstate.getBlock() == this && blockstate2.getBlock() == ModBlocks.CHRISTMAS_TREE_BOTTOM.get()
@@ -60,7 +60,7 @@ public class MultiChristmasTreeMiddleBlock extends BushBlock {
             worldIn.setBlockState(pos.up(), Blocks.AIR.getDefaultState(), 35);
             worldIn.setBlockState(pos, Blocks.AIR.getDefaultState(), 35);
         }
-
+        super.onBlockHarvested(worldIn, pos, state, player);
     }
 
     @Override

@@ -31,7 +31,7 @@ public class LightsChristmasTreeBottomBlock extends Block {
     }
 
     @Override
-    public void onPlayerDestroy(IWorld worldIn, BlockPos pos, BlockState p_176206_3_) {
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
 
         BlockState blockstate =worldIn.getBlockState(pos);
 
@@ -39,7 +39,7 @@ public class LightsChristmasTreeBottomBlock extends Block {
 
            worldIn.setBlockState(pos, ModBlocks.CHRISTMAS_TREE_STAND.get().getDefaultState(), 35);
         }
-
+        super.onBlockHarvested(worldIn, pos, state, player);
     }
 
     @Override
