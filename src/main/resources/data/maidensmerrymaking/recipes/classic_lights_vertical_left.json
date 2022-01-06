@@ -5,27 +5,20 @@
     
     "pattern":
     [
-        "L  ",
-		"L  ",
-		"   "
-		
+        "B  ",
+		"B  ",
+		"B  "
 		
     ],
     
     "key":
     {
-       
-		
-		"L":
+    	
+		"B":
 		{
-			
 			"item": "maidensmerrymaking:classic_lights_white"
 		}
-		
-		
-		
-		
-    },
+	   },
     
     "result":
     {

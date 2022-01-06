@@ -1,4 +1,5 @@
-{
+{  "type": "maidensmerrymaking:tiny_spruce_drop",
+	 
   "conditions": [
     {
       "condition": "block_state_property",
@@ -8,6 +9,7 @@
   "seedItem": "minecraft:stick",
   "numSeeds": 1,
   "replacement": "maidensmerrymaking:tiny_spruce"
+  
 }
 	
 	

@@ -2,6 +2,7 @@ package com.maideniles.maidensmerrymaking.event;
 
 
 import com.google.gson.JsonObject;
+import com.maideniles.maidensmerrymaking.MaidensMerryMaking;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.loot.LootContext;
@@ -10,18 +11,22 @@ import net.minecraft.util.JSONUtils;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
 import net.minecraftforge.common.loot.LootModifier;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import javax.annotation.Nonnull;
 import java.util.List;
 
 
+@Mod.EventBusSubscriber(modid = MaidensMerryMaking.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class SpruceLeavesConverterModifier extends LootModifier {
     private final int numSeedsToConvert;
     private final Item itemToCheck;
     private final Item itemReward;
-    public SpruceLeavesConverterModifier(ILootCondition[] conditionsIn, int numSeeds, Item itemCheck, Item reward) {
-        super(conditionsIn);
+    public SpruceLeavesConverterModifier(ILootCondition[] conditions, int numSeeds, Item itemCheck, Item reward) {
+        super(conditions);
         numSeedsToConvert = numSeeds;
         itemToCheck = itemCheck;
         itemReward = reward;
@@ -49,14 +54,19 @@ public class SpruceLeavesConverterModifier extends LootModifier {
         return generatedLoot;
     }
 
+    @SubscribeEvent
+    public static void registerModifiers(RegistryEvent.Register<GlobalLootModifierSerializer<?>> registryEvent) {
+        registryEvent.getRegistry().register(new Serializer().setRegistryName(MaidensMerryMaking.MOD_ID, "tiny_spruce_drop"));
+    }
+
     public static class Serializer extends GlobalLootModifierSerializer<SpruceLeavesConverterModifier> {
 
         @Override
-        public SpruceLeavesConverterModifier read(ResourceLocation name, JsonObject object, ILootCondition[] conditionsIn) {
+        public SpruceLeavesConverterModifier read(ResourceLocation name, JsonObject object, ILootCondition[] conditions) {
             int numSeeds = JSONUtils.getInt(object, "numSeeds");
             Item seed = ForgeRegistries.ITEMS.getValue(new ResourceLocation((JSONUtils.getString(object, "seedItem"))));
-            Item wheat = ForgeRegistries.ITEMS.getValue(new ResourceLocation(JSONUtils.getString(object, "replacement")));
-            return new SpruceLeavesConverterModifier(conditionsIn, numSeeds, seed, wheat);
+            Item tiny_spruce = ForgeRegistries.ITEMS.getValue(new ResourceLocation(JSONUtils.getString(object, "replacement")));
+            return new SpruceLeavesConverterModifier(conditions, numSeeds, seed, tiny_spruce);
         }
 
         @Override

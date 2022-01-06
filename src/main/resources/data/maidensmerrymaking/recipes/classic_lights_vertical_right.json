@@ -5,9 +5,9 @@
     
     "pattern":
     [
-        "  L",
-		"  L",
-		"   "
+        "  R",
+		"  R",
+		"  R"
 		
 		
     ],
@@ -16,7 +16,7 @@
     {
        
 		
-		"L":
+		"R":
 		{
 			
 			"item": "maidensmerrymaking:classic_lights_white"

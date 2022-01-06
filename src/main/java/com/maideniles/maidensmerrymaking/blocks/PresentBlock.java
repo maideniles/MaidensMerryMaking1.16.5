@@ -40,15 +40,15 @@ public class PresentBlock extends Block {
 
 
     if (gift_id== 0){
-        world.addEntity(new ItemEntity((World) world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Items.NETHER_STAR,gift_count)));
+        world.addEntity(new ItemEntity((World) world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Items.NETHER_STAR,1)));
 
     }
     if(gift_id== 1){
-        world.addEntity(new ItemEntity((World) world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Item.getItemFromBlock(Blocks.LODESTONE),gift_count)));
+        world.addEntity(new ItemEntity((World) world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Item.getItemFromBlock(Blocks.LODESTONE),1)));
 
     }
     if(gift_id== 2){
-        world.addEntity(new ItemEntity((World) world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Items.HEART_OF_THE_SEA,gift_count)));
+        world.addEntity(new ItemEntity((World) world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Items.HEART_OF_THE_SEA,1)));
 
         }
     if(gift_id== 3){
@@ -56,7 +56,7 @@ public class PresentBlock extends Block {
 
         }
     if(gift_id== 4){
-        world.addEntity(new ItemEntity((World) world, pos.getX(), pos.getY(), pos.getZ(),  new ItemStack(Item.getItemFromBlock(Blocks.DIAMOND_BLOCK), gift_count)));
+        world.addEntity(new ItemEntity((World) world, pos.getX(), pos.getY(), pos.getZ(),  new ItemStack(Item.getItemFromBlock(Blocks.DIAMOND_BLOCK), 1)));
 
         }
     if(gift_id== 5){

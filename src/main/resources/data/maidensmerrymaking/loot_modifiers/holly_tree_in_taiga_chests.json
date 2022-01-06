@@ -2,9 +2,10 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/simple_dungeon"
+      "loot_table_id": "minecraft:chests/village/village_taiga_house"
     }
+	
   ],
-  "addition": "maidensmerrymaking:present",
+  "addition": "maidensmerrymaking:holly_sapling",
   "type": "maidensmerrymaking:chest_loot"
 }

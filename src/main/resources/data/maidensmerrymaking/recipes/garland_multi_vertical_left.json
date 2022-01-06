@@ -5,9 +5,9 @@
     
     "pattern":
     [
-        "  C",
-		"  C",
-		"  C"
+        "L  ",
+		"L  ",
+		"L  "
 		
 		
     ],
@@ -16,10 +16,10 @@
     {
        
 		
-		"C":
+		"L":
 		{
 			
-			"item": "maidensmerrymaking:classic_lights_multi"
+			"item": "maidensmerrymaking:garland_horizontal_multi"
 		}
 		
 		
@@ -29,7 +29,7 @@
     
     "result":
     {
-        "item": "maidensmerrymaking:classic_multi_vertical_right",
+        "item": "maidensmerrymaking:garland_vertical_multi_left",
         "count": 4
     }
 }
