@@ -24,6 +24,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.potion.Effects;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -1595,6 +1596,21 @@ public class ModBlocks {
             })), ModItemGroups.MAIDENS_BLOCKS_GROUP);
 
 
+    public static final RegistryObject<Block> CLOVER = registerBlock("clover",
+            () -> new FlowerBlock(Effects.LUCK,1800,Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.5F).notSolid().doesNotBlockMovement().zeroHardnessAndResistance().sound(SoundType.CROP)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> GLASS_MUG = registerBlock("glass_mug",
+            () -> new MugBlock(Block.Properties.create(Material.GLASS).hardnessAndResistance(0.1F, 2.5F).sound(SoundType.GLASS)), ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> GREEN_BEER_TROPHY = registerWithNullGroup("green_beer_trophy",
+            () -> new MugBlock(Block.Properties.create(Material.GLASS).hardnessAndResistance(0.1F, 2.5F).sound(SoundType.GLASS)));
+
+    public static final RegistryObject<Block> POT_O_GOLD_BLOCK = registerWithNullGroup("pot_o_gold_block",
+            () -> new PotOGoldBlock(Block.Properties.create(Material.GLASS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.GLASS)) {
+            });
+
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, ItemGroup maidensBlocksGroup) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
@@ -1613,6 +1629,9 @@ public class ModBlocks {
                 new Item.Properties().group(null)));
         return toReturn2;
     }
+
+
+
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

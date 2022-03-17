@@ -1,19 +1,31 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "DDD",
-    "DWD",
-    "   "
-  ],
-  "key": {
-    "W": {
-      "item": "minecraft:red_wool"
-    },
-	"D": {
-      "item": "minecraft:diamond"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "maidensmerrymaking:christmas_enabled"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+           "DDD",
+		   "DWD",
+           "   "
+        ],
+        "key": {
+          "W": {
+            "item": "minecraft:red_wool"
+          },
+          "D": {
+            "item": "minecraft:diamond"
+          }
+        },
+        "result": {
+          "item": "maidensmerrymaking:red_santa_hat"
+        }
+      }
     }
-  },
-  "result": {
-    "item": "maidensmerrymaking:red_santa_hat"
-  }
+  ]
 }

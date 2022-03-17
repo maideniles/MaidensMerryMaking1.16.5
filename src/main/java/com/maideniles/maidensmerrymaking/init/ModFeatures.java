@@ -18,6 +18,8 @@ public class ModFeatures {
     public static final RegistryObject<Feature<BaseTreeFeatureConfig>> CHRISTMAS_TREE = FEATURES.register("christmas_tree", () -> CHRISTMAS_TREE_INSTANCE);
 
 
+
+
     static final Feature<BaseTreeFeatureConfig> HOLLY_TREE_INSTANCE = new HollyTreeGen(BaseTreeFeatureConfig.CODEC);
     public static final RegistryObject<Feature<BaseTreeFeatureConfig>> HOLLY_TREE = FEATURES.register("holly_tree", () -> HOLLY_TREE_INSTANCE);
 

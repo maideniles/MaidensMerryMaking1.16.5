@@ -1,6 +1,8 @@
 package com.maideniles.maidensmerrymaking.init;
 
 import com.maideniles.maidensmerrymaking.MaidensMerryMaking;
+import com.maideniles.maidensmerrymaking.items.CloverItem;
+import com.maideniles.maidensmerrymaking.items.GreenBeerItem;
 import com.maideniles.maidensmerrymaking.items.MintBottleItem;
 import com.maideniles.maidensmerrymaking.items.armor.RedChristmasArmorItem;
 import com.maideniles.maidensmerrymaking.items.armor.ReindeerEarsArmorItem;
@@ -32,11 +34,11 @@ public class ModItems {
     //MUSIC DISC//
     public static final RegistryObject<Item> CHRISTMAS_DISC = ITEMS.register("christmas_music_disc",
             () -> new MusicDiscItem(1, () -> ModSoundEvents.CHRISTMAS_MUSIC_DISC.get(),
-                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+                    new Item.Properties().maxStackSize(1).group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
     public static final RegistryObject<Item> CHRISTMAS_DISC_2 = ITEMS.register("christmas_music_disc_2",
             () -> new MusicDiscItem(1, () -> ModSoundEvents.CHRISTMAS_MUSIC_DISC_2.get(),
-                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+                    new Item.Properties().maxStackSize(1).group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
     //TOPPERS//
     public static final RegistryObject<Item> BOW= ITEMS.register( "bow",
@@ -228,6 +230,15 @@ public class ModItems {
     public static final RegistryObject<Item> SANTA_SLIPPERS = ITEMS.register("santa_slippers",
             () -> new ArmorItem(ModArmorMaterial.GREEN_WOOL, EquipmentSlotType.FEET,
                     new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> FOUR_LEAF_CLOVER = ITEMS.register("four_leaf_clover",
+            () -> new CloverItem(new Item.Properties().maxDamage(50).group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> GREEN_BEER = ITEMS.register("green_beer",
+            () -> new GreenBeerItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> LUCKY_HAT = ITEMS.register("lucky_hat",
+            () -> new Item(new Item.Properties().group(null)));
 
 
 

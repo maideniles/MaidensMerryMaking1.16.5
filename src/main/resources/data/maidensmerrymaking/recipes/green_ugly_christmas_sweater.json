@@ -1,19 +1,31 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "DWD",
-    "DDD",
-    "DDD"
-  ],
-  "key": {
-    "W": {
-      "item": "minecraft:green_wool"
-    },
-	"D": {
-      "item": "minecraft:diamond"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "maidensmerrymaking:christmas_enabled"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+           "DWD",
+		   "DDD",
+           "DDD"
+        ],
+        "key": {
+          "W": {
+            "item": "minecraft:green_wool"
+          },
+          "D": {
+            "item": "minecraft:diamond"
+          }
+        },
+        "result": {
+          "item": "maidensmerrymaking:green_ugly_christmas_sweater"
+        }
+      }
     }
-  },
-  "result": {
-    "item": "maidensmerrymaking:green_ugly_christmas_sweater"
-  }
+  ]
 }

@@ -400,6 +400,9 @@ public class RenderLayers {
         RenderTypeLookup.setRenderLayer(ModBlocks.DECORATED_WHITE_MULTI_CHRISTMAS_TREE_TOP.get(), RenderType.getCutoutMipped());
 
         RenderTypeLookup.setRenderLayer(ModBlocks.PRESENT.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CLOVER.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GLASS_MUG.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(ModBlocks.POT_O_GOLD_BLOCK.get(), RenderType.getCutoutMipped());
 
 
 

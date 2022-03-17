@@ -4,6 +4,7 @@
 "itemGroup.maidens_items_group": "MerryMaking Items Tab",
 
 
+
 "item.maidensmerrymaking.reindeer_ears": "Reindeer Antlers",
 "item.maidensmerrymaking.red_santa_hat": "Red Santa Hat",
 "item.maidensmerrymaking.red_ugly_christmas_sweater": "Ugly Christmas Sweater-Penguin",
@@ -466,7 +467,13 @@
 "block.maidensmerrymaking.spruce_leaves_lights_multi": "Spruce Leaves (Multicolored Lights)",
 "block.maidensmerrymaking.spruce_leaves_lights_large_white": "Spruce Leaves (Classic White Lights)",
 "block.maidensmerrymaking.spruce_leaves_lights_large_multi": "Spruce Leaves (Classic Multicolored Lights)",
-"block.maidensmerrymaking.spruce_leaves_holly": "Spruce Leaves (Holly Berries)"
+"block.maidensmerrymaking.spruce_leaves_holly": "Spruce Leaves (Holly Berries)",
+"block.maidensmerrymaking.pot_o_gold_block": "Pot 'O Gold Decoration",
+"block.maidensmerrymaking.glass_mug": "Glass Mug",
+"block.maidensmerrymaking.green_beer_trophy": "Green Beer Achievement Trophy",
+"block.maidensmerrymaking.clover": "Clover",
+"item.maidensmerrymaking.four_leaf_clover": "Lucky Four Leaf Clover",
+"item.maidensmerrymaking.green_beer": "Green Beer"
 
 
 

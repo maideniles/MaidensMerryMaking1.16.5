@@ -38,6 +38,14 @@ public class ModWorldGen {
                     .withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
                     .withPlacement(Placement.COUNT_EXTRA.configure(
                             new AtSurfaceWithExtraConfig(0, 0.1f, 1))));
+
+        }
+
+        if(types.contains(BiomeDictionary.Type.PLAINS)) {
+            List<Supplier<ConfiguredFeature<?, ?>>> base =
+                    event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
+
+            base.add(() -> ModConfiguredFeatures.CLOVER_CONFIG);
         }
 }
 

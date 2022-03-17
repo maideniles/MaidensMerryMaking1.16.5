@@ -1,0 +1,36 @@
+{
+  "parent": "maidensmerrymaking:root",
+  "display": {
+    "icon": {
+      "item": "maidensmerrymaking:green_beer"
+    },
+    "title": {
+      "text": "Take A Pitcher, It'll Last Longer!",
+      "color": "white"
+
+    },
+    "description": {
+      "text": "Drink Green Beer until you can't see straight.",
+      "color": "dark_green"
+    },
+      "frame": "challenge",
+
+      "show_toast": true,
+
+      "announce_to_chat": true,
+      "hidden": false
+
+
+  },
+
+  "criteria": {
+    "drunk_on_green_beer": {
+      "trigger": "maidensmerrymaking:drunk_on_green_beer"
+      }
+    },
+  "rewards": {
+    "loot": [
+      "maidensmerrymaking:green_beer_trophy_loot"
+    ]
+  }
+}
