@@ -22,7 +22,6 @@ public class ModFeatures {
     static final Feature<BaseTreeFeatureConfig> HOLLY_TREE_INSTANCE = new HollyTreeGen(BaseTreeFeatureConfig.CODEC);
     public static final RegistryObject<Feature<BaseTreeFeatureConfig>> HOLLY_TREE = FEATURES.register("holly_tree", () -> HOLLY_TREE_INSTANCE);
 
-
     //BEGIN EASTER FEATURES//
     public static final RandomPatchFeature EASTER_EGG_INSTANCE = new RandomPatchFeature(BlockClusterFeatureConfig.CODEC);
     public static final RegistryObject<Feature<BlockClusterFeatureConfig>> EASTER_EGG = FEATURES.register("easter_egg", () -> EASTER_EGG_INSTANCE);

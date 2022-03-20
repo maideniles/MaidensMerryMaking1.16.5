@@ -30,12 +30,13 @@ public class ModConfiguredFeatures {
                     new StraightTrunkPlacer(1, 1, 1),
                     new TwoLayerFeature(1, 1, 1)).setIgnoreVines().build());
 
+//BEGIN ST PATRICK'S DAY CONTENT//
     public static final ConfiguredFeature<?, ?> CLOVER_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
             new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.CLOVER.get().getDefaultState()),
                     SimpleBlockPlacer.PLACER)).tries(12).build())
             .withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).count(3);
 
-
+//BEGIN EASTER CONTENT//
     public static final ConfiguredFeature<BlockClusterFeatureConfig, ?> EASTER_EGG_CONFIG = (ConfiguredFeature<BlockClusterFeatureConfig, ?>) ModFeatures.EASTER_EGG_INSTANCE.withConfiguration((
            new BlockClusterFeatureConfig.Builder((
             new WeightedBlockStateProvider())
@@ -83,187 +84,7 @@ public class ModConfiguredFeatures {
             .addWeightedBlockstate(ModBlocks.YELLOW_ZIGZAG_EASTER_EGG_GEN_BLOCK.get().getDefaultState(), 1),
                    SimpleBlockPlacer.PLACER)).tries(1).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.05F, 1)));
 
-
-
-    // BEGIN EASTER EGGS CONFIG//
-  /*  public static final ConfiguredFeature<?, ?> BLUE_MULTI_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.BLUE_MULTI_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> BLUE_PURPLE_FADE_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.BLUE_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> BLUE_PURPLE_FADE_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.BLUE_PURPLE_FADE_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> BLUE_PURPLE_FADE_ZIGZAG_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.BLUE_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> BLUE_WHITE_FLOWERS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.BLUE_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> BLUE_ZIGZAG_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.BLUE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get()
-            .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> CYAN_BLUE_FADE_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.CYAN_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> CYAN_BLUE_FADE_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.CYAN_BLUE_FADE_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> CYAN_BLUE_FADE_ZIGZAG_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.CYAN_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> CYAN_MULTI_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks. CYAN_MULTI_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> CYAN_MONOCHROME_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.CYAN_MONOCHROME_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> CYAN_PURPLE_FADE_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.CYAN_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> CYAN_PURPLE_FADE_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.CYAN_PURPLE_FADE_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> CYAN_PURPLE_FADE_ZIGZAG_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.CYAN_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> CYAN_WHITE_FLOWERS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.CYAN_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_BLUE_FADE_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_BLUE_FADE_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_BLUE_FADE_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_BLUE_FADE_ZIGZAG_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_CYAN_FADE_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_CYAN_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_CYAN_FADE_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_CYAN_FADE_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_CYAN_FADE_ZIGZAG_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_CYAN_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_MONOCHROME_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_MONOCHROME_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_MULTI_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_MULTI_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_PURPLE_FADE_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_PURPLE_FADE_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_PURPLE_FADE_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_PURPLE_FADE_ZIGZAG_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PINK_WHITE_FLOWERS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PINK_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PURPLE_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PURPLE_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PURPLE_PINK_FLOWER_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PURPLE_PINK_FLOWER_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> PURPLE_STRIPES_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.PURPLE_STRIPES_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> RAINBOW_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.RAINBOW_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> RAINBOW_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.RAINBOW_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> RAINBOW_ZIGZAG_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.RAINBOW_ZIGZAG_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> YELLOW_BLUE_FADE_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.YELLOW_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> YELLOW_BLUE_FADE_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.YELLOW_BLUE_FADE_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> YELLOW_BLUE_FADE_ZIGZAG_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.YELLOW_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> YELLOW_MONOCHROME_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.YELLOW_MONOCHROME_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> YELLOW_PINK_FADE_DOTS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.YELLOW_PINK_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> YELLOW_PINK_FADE_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.YELLOW_PINK_FADE_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> YELLOW_PINK_FADE_ZIGZAG_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.YELLOW_PINK_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> YELLOW_WHITE_FLOWERS_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.YELLOW_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-
-    public static final ConfiguredFeature<?, ?> YELLOW_ZIGZAG_EASTER_EGG_BLOCK_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
-            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.YELLOW_ZIGZAG_EASTER_EGG_GEN_BLOCK.get()
-                    .getDefaultState()),SimpleBlockPlacer.PLACER)).xSpread(0).ySpread(0).zSpread(0).build()).withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(0, 0.03F, 1)));
-*/
 // END EASTER EGGS CONFIG//
-
-
-
-
-
-
-
-
-
 
 
     private static <C extends IFeatureConfig, F extends Feature<C>> F register(String key, F value) {
