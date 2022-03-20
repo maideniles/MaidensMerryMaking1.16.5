@@ -2,6 +2,7 @@ package com.maideniles.maidensmerrymaking.world.gen;
 
 import com.maideniles.maidensmerrymaking.MaidensMerryMaking;
 import com.maideniles.maidensmerrymaking.init.ModStructures;
+import com.maideniles.maidensmerrymaking.util.MerryMakingConfig;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.biome.Biome;
@@ -24,8 +25,9 @@ public class ModStructureGeneration {
         if(types.contains(BiomeDictionary.Type.PLAINS)) {
             List<Supplier<StructureFeature<?, ?>>> structures = event.getGeneration().getStructures();
 
+            if (MerryMakingConfig.ST_PATRICKS_DAY_ENABLED.get() == Boolean.TRUE) {
             structures.add(() -> ModStructures.POT_OF_GOLD.get().withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
-           System.out.println("Added POT 'O GOLD!");
+           System.out.println("Added POT 'O GOLD!");}
         }
     }
 }

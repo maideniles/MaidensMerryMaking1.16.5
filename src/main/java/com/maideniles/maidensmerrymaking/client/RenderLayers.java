@@ -400,9 +400,101 @@ public class RenderLayers {
         RenderTypeLookup.setRenderLayer(ModBlocks.DECORATED_WHITE_MULTI_CHRISTMAS_TREE_TOP.get(), RenderType.getCutoutMipped());
 
         RenderTypeLookup.setRenderLayer(ModBlocks.PRESENT.get(), RenderType.getCutoutMipped());
+
+        //BEGIN ST PATRICK'S DAY//
         RenderTypeLookup.setRenderLayer(ModBlocks.CLOVER.get(), RenderType.getCutoutMipped());
         RenderTypeLookup.setRenderLayer(ModBlocks.GLASS_MUG.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(ModBlocks.POT_O_GOLD_BLOCK.get(), RenderType.getCutoutMipped());
+
+//BEGIN EASTER//
+
+        //egg gen blocks//
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_MULTI_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_PURPLE_FADE_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_BLUE_FADE_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_MULTI_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_MONOCHROME_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_PURPLE_FADE_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_BLUE_FADE_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_CYAN_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_CYAN_FADE_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_CYAN_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_MONOCHROME_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_MULTI_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_PURPLE_FADE_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PURPLE_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PURPLE_PINK_FLOWER_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PURPLE_STRIPES_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.RAINBOW_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.RAINBOW_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.RAINBOW_ZIGZAG_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_BLUE_FADE_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_MONOCHROME_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_PINK_FADE_DOTS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_PINK_FADE_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_PINK_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_ZIGZAG_EASTER_EGG_GEN_BLOCK.get(), RenderType.getCutoutMipped());
+
+//egg deco blocks//
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_MULTI_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_PURPLE_FADE_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_PURPLE_FADE_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_PURPLE_FADE_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_WHITE_FLOWERS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_BLUE_FADE_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_BLUE_FADE_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_BLUE_FADE_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_MULTI_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_MONOCHROME_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_PURPLE_FADE_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_PURPLE_FADE_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_PURPLE_FADE_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CYAN_WHITE_FLOWERS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_BLUE_FADE_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_BLUE_FADE_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_BLUE_FADE_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_CYAN_FADE_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_CYAN_FADE_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_CYAN_FADE_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_MONOCHROME_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_MULTI_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_PURPLE_FADE_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_PURPLE_FADE_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_PURPLE_FADE_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PINK_WHITE_FLOWERS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PURPLE_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PURPLE_PINK_FLOWER_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.PURPLE_STRIPES_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.RAINBOW_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.RAINBOW_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.RAINBOW_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_BLUE_FADE_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_BLUE_FADE_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_BLUE_FADE_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_MONOCHROME_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_PINK_FADE_DOTS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_PINK_FADE_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_PINK_FADE_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_WHITE_FLOWERS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
 
 
 

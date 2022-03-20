@@ -11,6 +11,8 @@ public class MerryMakingConfig {
     public static ForgeConfigSpec CLIENT_CONFIG;
     public static ForgeConfigSpec.IntValue CHRISTMAS_PRESENT_CHEST_SPAWN;
     public static ForgeConfigSpec.BooleanValue CHRISTMAS_ENABLED;
+    public static ForgeConfigSpec.BooleanValue ST_PATRICKS_DAY_ENABLED;
+    public static ForgeConfigSpec.BooleanValue EASTER_ENABLED;
 
 
     static {
@@ -32,6 +34,11 @@ public class MerryMakingConfig {
             CHRISTMAS_ENABLED = CLIENT_BUILDER.comment("Enable Christmas Recipes such as armor, foods, decorations. Set to False to disable")
                     .define("christmas_enabled", true);
 
+            ST_PATRICKS_DAY_ENABLED = CLIENT_BUILDER.comment("Enable St. Patrick's Day content-- Pot 'O Gold Structure, Green Beer recipe, Clover generation, etc.")
+                    .define("st_patricks_day_enabled", true);
+
+            EASTER_ENABLED = CLIENT_BUILDER.comment("Enable Easter content--egg world gen, etc.")
+                    .define("st_patricks_day_enabled", true);
         }
 
 
