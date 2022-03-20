@@ -1,0 +1,145 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Find all the Two-Colored Eggs",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Description"
+        },
+        "icon": {
+            "item": "maidensmerrymaking:yellow_pink_fade_easter_egg_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Yellow Pink": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "maidensmerrymaking:yellow_pink_fade_easter_egg_block",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "Yellow Blue": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "maidensmerrymaking:yellow_blue_fade_easter_egg_block",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "Pink Cyan": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "maidensmerrymaking:pink_cyan_fade_easter_egg_block",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "Pink Purple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "maidensmerrymaking:pink_purple_fade_easter_egg_block",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "Pink Blue": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "maidensmerrymaking:pink_blue_fade_easter_egg_block",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "Cyan Purple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "maidensmerrymaking:cyan_purple_fade_easter_egg_block",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "Cyan Blue": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "maidensmerrymaking:cyan_blue_fade_easter_egg_block",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "Blue Purple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "maidensmerrymaking:blue_purple_fade_easter_egg_block",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Yellow Pink",
+            "Yellow Blue",
+            "Pink Cyan",
+            "Pink Purple",
+            "Pink Blue",
+            "Cyan Purple",
+            "Cyan Blue",
+            "Blue Purple"
+        ]
+    ]
+}

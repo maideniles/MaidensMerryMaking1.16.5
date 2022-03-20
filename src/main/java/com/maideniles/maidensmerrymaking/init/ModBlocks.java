@@ -1613,173 +1613,6 @@ public class ModBlocks {
 
     // BEGIN EASTER CONTENT//
 
-    public static final RegistryObject<Block> BLUE_MULTI_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("blue_multi_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> BLUE_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("blue_purple_fade_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> BLUE_PURPLE_FADE_EASTER_EGG_GEN_BLOCK = registerBlock("blue_purple_fade_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> BLUE_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerBlock("blue_purple_fade_zigzag_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> BLUE_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK = registerBlock("blue_white_flowers_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> BLUE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerBlock("blue_zigzag_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> CYAN_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("cyan_blue_fade_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> CYAN_BLUE_FADE_EASTER_EGG_GEN_BLOCK = registerBlock("cyan_blue_fade_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> CYAN_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerBlock("cyan_blue_fade_zigzag_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> CYAN_MULTI_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("cyan_multi_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> CYAN_MONOCHROME_EASTER_EGG_GEN_BLOCK = registerBlock("cyan_monochrome_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> CYAN_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("cyan_purple_fade_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> CYAN_PURPLE_FADE_EASTER_EGG_GEN_BLOCK = registerBlock("cyan_purple_fade_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> CYAN_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerBlock("cyan_purple_fade_zigzag_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> CYAN_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK = registerBlock("cyan_white_flowers_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("pink_blue_fade_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_BLUE_FADE_EASTER_EGG_GEN_BLOCK = registerBlock("pink_blue_fade_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerBlock("pink_blue_fade_zigzag_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_CYAN_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("pink_cyan_fade_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_CYAN_FADE_EASTER_EGG_GEN_BLOCK = registerBlock("pink_cyan_fade_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_CYAN_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerBlock("pink_cyan_fade_zigzag_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_MONOCHROME_EASTER_EGG_GEN_BLOCK = registerBlock("pink_monochrome_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_MULTI_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("pink_multi_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("pink_purple_fade_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_PURPLE_FADE_EASTER_EGG_GEN_BLOCK = registerBlock("pink_purple_fade_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerBlock("pink_purple_fade_zigzag_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PINK_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK = registerBlock("pink_white_flowers_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PURPLE_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("purple_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PURPLE_PINK_FLOWER_EASTER_EGG_GEN_BLOCK = registerBlock("purple_pink_flower_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> PURPLE_STRIPES_EASTER_EGG_GEN_BLOCK = registerBlock("purple_stripes_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> RAINBOW_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("rainbow_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> RAINBOW_EASTER_EGG_GEN_BLOCK = registerBlock("rainbow_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> RAINBOW_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerBlock("rainbow_zigzag_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> YELLOW_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("yellow_blue_fade_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> YELLOW_BLUE_FADE_EASTER_EGG_GEN_BLOCK = registerBlock("yellow_blue_fade_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> YELLOW_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerBlock("yellow_blue_fade_zigzag_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> YELLOW_MONOCHROME_EASTER_EGG_GEN_BLOCK = registerBlock("yellow_monochrome_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> YELLOW_PINK_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerBlock("yellow_pink_fade_dots_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> YELLOW_PINK_FADE_EASTER_EGG_GEN_BLOCK = registerBlock("yellow_pink_fade_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> YELLOW_PINK_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerBlock("yellow_pink_fade_zigzag_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> YELLOW_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK = registerBlock("yellow_white_flowers_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
-
-    public static final RegistryObject<Block> YELLOW_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerBlock("yellow_zigzag_easter_egg_gen_block",
-            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
-            }, null);
 
 
     public static final RegistryObject<Block> BLUE_MULTI_DOTS_EASTER_EGG_BLOCK = registerBlock("blue_multi_dots_easter_egg_block",
@@ -1949,6 +1782,181 @@ public class ModBlocks {
     public static final RegistryObject<Block> YELLOW_ZIGZAG_EASTER_EGG_BLOCK = registerBlock("yellow_zigzag_easter_egg_block",
             () -> new SmallDecoBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
             }, ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+//EASTER EGG GEN BLOCKS//HIDE//
+
+    public static final RegistryObject<Block> EASTER_BASKET_TROPHY_BLOCK = registerWithNullGroup("easter_basket_trophy_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> BLUE_MULTI_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("blue_multi_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> BLUE_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("blue_purple_fade_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> BLUE_PURPLE_FADE_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("blue_purple_fade_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> BLUE_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("blue_purple_fade_zigzag_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> BLUE_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("blue_white_flowers_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> BLUE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("blue_zigzag_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> CYAN_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("cyan_blue_fade_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> CYAN_BLUE_FADE_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("cyan_blue_fade_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> CYAN_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("cyan_blue_fade_zigzag_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> CYAN_MULTI_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("cyan_multi_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> CYAN_MONOCHROME_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("cyan_monochrome_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> CYAN_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("cyan_purple_fade_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> CYAN_PURPLE_FADE_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("cyan_purple_fade_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> CYAN_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("cyan_purple_fade_zigzag_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> CYAN_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("cyan_white_flowers_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_blue_fade_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_BLUE_FADE_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_blue_fade_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_blue_fade_zigzag_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_CYAN_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_cyan_fade_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_CYAN_FADE_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_cyan_fade_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_CYAN_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_cyan_fade_zigzag_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_MONOCHROME_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_monochrome_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_MULTI_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_multi_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_PURPLE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_purple_fade_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_PURPLE_FADE_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_purple_fade_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_PURPLE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_purple_fade_zigzag_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PINK_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("pink_white_flowers_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PURPLE_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("purple_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PURPLE_PINK_FLOWER_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("purple_pink_flower_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> PURPLE_STRIPES_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("purple_stripes_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> RAINBOW_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("rainbow_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> RAINBOW_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("rainbow_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> RAINBOW_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("rainbow_zigzag_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_BLUE_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("yellow_blue_fade_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_BLUE_FADE_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("yellow_blue_fade_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_BLUE_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("yellow_blue_fade_zigzag_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_MONOCHROME_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("yellow_monochrome_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_PINK_FADE_DOTS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("yellow_pink_fade_dots_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_PINK_FADE_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("yellow_pink_fade_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_PINK_FADE_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("yellow_pink_fade_zigzag_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_WHITE_FLOWERS_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("yellow_white_flowers_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
+    public static final RegistryObject<Block> YELLOW_ZIGZAG_EASTER_EGG_GEN_BLOCK = registerWithNullGroup("yellow_zigzag_easter_egg_gen_block",
+            () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
+            });
+
 
 
 

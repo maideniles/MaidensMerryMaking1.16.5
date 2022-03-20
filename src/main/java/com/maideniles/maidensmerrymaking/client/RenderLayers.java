@@ -495,6 +495,7 @@ public class RenderLayers {
         RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_PINK_FADE_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
         RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_WHITE_FLOWERS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
         RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EASTER_BASKET_TROPHY_BLOCK.get(), RenderType.getCutoutMipped());
 
 
 
