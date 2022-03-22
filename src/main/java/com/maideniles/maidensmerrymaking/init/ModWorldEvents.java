@@ -1,6 +1,7 @@
 package com.maideniles.maidensmerrymaking.init;
 
 import com.maideniles.maidensmerrymaking.MaidensMerryMaking;
+import com.maideniles.maidensmerrymaking.world.gen.ModEntityGeneration;
 import com.maideniles.maidensmerrymaking.world.gen.ModStructureGeneration;
 import com.mojang.serialization.Codec;
 import net.minecraft.util.ResourceLocation;
@@ -12,6 +13,7 @@ import net.minecraft.world.gen.feature.structure.Structure;
 import net.minecraft.world.gen.settings.DimensionStructuresSettings;
 import net.minecraft.world.gen.settings.StructureSeparationSettings;
 import net.minecraft.world.server.ServerWorld;
+import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.event.world.WorldEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -31,6 +33,7 @@ public class ModWorldEvents {
 
         ModWorldGen.generateTrees(event);
         ModStructureGeneration.generateStructures(event);
+        ModEntityGeneration.onEntitySpawn(event);
     }
 
     @SubscribeEvent
@@ -66,6 +69,8 @@ public class ModWorldEvents {
             serverWorld.getChunkProvider().generator.func_235957_b_().field_236193_d_ = tempMap;
         }
     }
+
+
 }
 
 

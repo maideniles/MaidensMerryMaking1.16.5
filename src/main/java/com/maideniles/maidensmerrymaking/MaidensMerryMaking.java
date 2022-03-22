@@ -2,6 +2,8 @@ package com.maideniles.maidensmerrymaking;
 
 import com.google.common.collect.ImmutableMap;
 import com.maideniles.maidensmerrymaking.client.RenderLayers;
+import com.maideniles.maidensmerrymaking.entity.render.ColoredBunnyRenderer;
+import com.maideniles.maidensmerrymaking.entity.render.ColoredChickenRenderer;
 import com.maideniles.maidensmerrymaking.init.*;
 import com.maideniles.maidensmerrymaking.util.MerryMakingConfig;
 import com.maideniles.maidensmerrymaking.world.gen.ModStructureGeneration;
@@ -25,6 +27,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.ModLoadingContext;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.config.ModConfig;
@@ -63,6 +66,7 @@ public class MaidensMerryMaking {
         RenderLayers.safeRunClient();
         ModFeatures.register(eventBus);
         ModSoundEvents.register(eventBus);
+        ModEntityTypes.register(eventBus);
 
         ModStructures.register(eventBus);
         ModAdvancements.init();
@@ -83,6 +87,11 @@ public class MaidensMerryMaking {
 
 
             ModStructures.setupStructures();
+            RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.COLORED_CHICKEN.get(), ColoredChickenRenderer::new);
+            RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.COLORED_BUNNY.get(), ColoredBunnyRenderer::new);
+            System.out.println("REGISTERING THE STUPID CHICKEN RENDERS!");
+
+
         });
     }
 
@@ -90,6 +99,10 @@ public class MaidensMerryMaking {
         event.enqueueWork(() -> {
 
         });
+
+      // RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.COLORED_CHICKEN.get(), ColoredChickenRenderer::new);
+     //   System.out.println("REGISTERING THE STUPID CHICKEN RENDERS!");
+
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event) {

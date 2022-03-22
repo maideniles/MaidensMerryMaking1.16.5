@@ -1,13 +1,13 @@
 package com.maideniles.maidensmerrymaking.init;
 
 import com.maideniles.maidensmerrymaking.MaidensMerryMaking;
-import com.maideniles.maidensmerrymaking.items.CloverItem;
-import com.maideniles.maidensmerrymaking.items.GreenBeerItem;
-import com.maideniles.maidensmerrymaking.items.MintBottleItem;
+import com.maideniles.maidensmerrymaking.items.*;
 import com.maideniles.maidensmerrymaking.items.armor.RedChristmasArmorItem;
 import com.maideniles.maidensmerrymaking.items.armor.ReindeerEarsArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -240,6 +240,37 @@ public class ModItems {
     public static final RegistryObject<Item> LUCKY_HAT = ITEMS.register("lucky_hat",
             () -> new Item(new Item.Properties().group(null)));
 
+    //BEGIN EASTER ITEMS//
+    public static final RegistryObject<Item> ANGORA_WOOL = ITEMS.register("angora_wool",
+            () -> new Item(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> EASTER_CARD = ITEMS.register("easter_card",
+            () -> new CardItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> CHOCOLATE_BUNNY = ITEMS.register("chocolate_bunny",
+            () -> new ChocolateBunnyItem( new Item.Properties().food(new Food.Builder().hunger(4).saturation(1.2F)
+                    .setAlwaysEdible().build()).group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+//CHICKEN EASTER EGG DROPS//
+    public static final RegistryObject<Item> PURPLE_EGG = ITEMS.register("purple_egg",
+            () -> new Item(new Item.Properties().group(null)));
+
+    public static final RegistryObject<Item> PINK_EGG = ITEMS.register("pink_egg",
+            () -> new Item(new Item.Properties().group(null)));
+
+    public static final RegistryObject<Item> BLUE_EGG = ITEMS.register("blue_egg",
+            () -> new Item(new Item.Properties().group(null)));
+
+    public static final RegistryObject<Item> YELLOW_EGG = ITEMS.register("yellow_egg",
+            () -> new Item(new Item.Properties().group(null)));
+
+
+    public static final RegistryObject<ModSpawnEggItem> COLORED_CHICKEN_SPAWN_EGG = ITEMS.register("colored_chicken_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.COLORED_CHICKEN, 0x464F56, 0x1D6336,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<ModSpawnEggItem> COLORED_BUNNY_SPAWN_EGG = ITEMS.register("colored_bunny_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.COLORED_BUNNY, 0x464F56, 0x1D6336,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
 
 

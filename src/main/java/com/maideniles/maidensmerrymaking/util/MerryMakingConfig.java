@@ -13,6 +13,7 @@ public class MerryMakingConfig {
     public static ForgeConfigSpec.BooleanValue CHRISTMAS_ENABLED;
     public static ForgeConfigSpec.BooleanValue ST_PATRICKS_DAY_ENABLED;
     public static ForgeConfigSpec.BooleanValue EASTER_ENABLED;
+    public static ForgeConfigSpec.IntValue COLORED_EGG_SPAWN;
 
 
     static {
@@ -34,11 +35,18 @@ public class MerryMakingConfig {
             CHRISTMAS_ENABLED = CLIENT_BUILDER.comment("Enable Christmas Recipes such as armor, foods, decorations. Set to False to disable")
                     .define("christmas_enabled", true);
 
+//BEGIN ST PATRICK'S DAY CONTENT//
             ST_PATRICKS_DAY_ENABLED = CLIENT_BUILDER.comment("Enable St. Patrick's Day content-- Pot 'O Gold Structure, Green Beer recipe, Clover generation, etc.")
                     .define("st_patricks_day_enabled", true);
 
+//BEGIN EASTER CONTENT//
             EASTER_ENABLED = CLIENT_BUILDER.comment("Enable Easter content--egg world gen, etc.")
                     .define("st_patricks_day_enabled", true);
+
+            COLORED_EGG_SPAWN = CLIENT_BUILDER.comment("Chickens will drop colored eggs. Set to 0 to disable")
+                    .defineInRange("colored_egg_spawn", 1, 0, Integer.MAX_VALUE);
+
+
         }
 
 

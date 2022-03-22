@@ -1,0 +1,11 @@
+{ 
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/chicken"
+    }
+  ],
+  "addition": "maidensmerrymaking:yellow_egg",
+  
+  "type": "maidensmerrymaking:mob_loot"
+}
