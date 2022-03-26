@@ -2,7 +2,29 @@
 
 "itemGroup.maidens_blocks_group": "MerryMaking Blocks Tab",
 "itemGroup.maidens_items_group": "MerryMaking Items Tab",
+ "tooltip.maidensmerrymaking.angora_wool_shift": "Hold \u00A7bSHIFT\u00A7b for more Information!",
+  "tooltip.maidensmerrymaking.angora_wool": "'\u00A77Ethically hand-sourced by Villagers of the North'\u00A77",
+  "tooltip.maidensmerrymaking.easter_card_shift": "Hold \u00A7bSHIFT\u00A7b for more Information!",
+  "tooltip.maidensmerrymaking.easter_card": "\u00A77An old, dusty Easter card, long forgotten in a chest somewhere.\u00A77",
+  "item.maidensmerrymaking.bunny_hood": "Easter Bunny Costume Hood",
+  "item.maidensmerrymaking.bunny_costume": "Easter Bunny Costume Chestpiece",
+  "item.maidensmerrymaking.bunny_pants": "Easter Bunny Costume Pants",
+  "item.maidensmerrymaking.bunny_feet": "Easter Bunny Costume Boots",
 
+
+
+"item.maidensmerrymaking.angora_wool": "Angora Wool",
+"item.maidensmerrymaking.chocolate_bunny": "Chocolate Bunny",
+"item.maidensmerrymaking.easter_card": "Easter Card",
+"item.maidensmerrymaking.pink_egg": "Pink Egg",
+"item.maidensmerrymaking.blue_egg": "Blue Egg",
+"item.maidensmerrymaking.purple_egg": "Purple Egg",
+"item.maidensmerrymaking.yellow_egg": "Yellow Egg",
+"item.maidensmerrymaking.purple_bunny_spawn_egg": "Purple Bunny Spawn Egg",
+"item.maidensmerrymaking.pink_bunny_spawn_egg": "Pink Bunny Spawn Egg",
+"item.maidensmerrymaking.blue_bunny_spawn_egg": "Blue Bunny Spawn Egg",
+"item.maidensmerrymaking.yellow_bunny_spawn_egg": "Yellow Bunny Spawn Egg",
+"item.maidensmerrymaking.colored_chicken_spawn_egg": "Yellow Chicken Spawn Egg",
 
 
 "item.maidensmerrymaking.reindeer_ears": "Reindeer Antlers",
@@ -84,7 +106,15 @@
 
 	
 	
-	
+"block.maidensmerrymaking.easter_basket_block": "Easter Basket",
+"block.maidensmerrymaking.easter_basket_trophy_block": "Easter Basket Trophy",
+"block.maidensmerrymaking.easter_lily": "Easter Lily",
+"block.maidensmerrymaking.easter_lily_potted": "Potted Easter Lilly",
+"block.maidensmerrymaking.hydrangea": "Hydrangea Bush",
+"block.maidensmerrymaking.hydrangea_potted": "Potted Hydrangea",
+"block.maidensmerrymaking.hyacinth": "Hyacinth",
+"block.maidensmerrymaking.hyacinth_potted": "Potted Hyacinth",
+
 	
 	"block.maidensmerrymaking.mint_plant": "Mint Seeds",
 	"block.maidensmerrymaking.ginger_plant": "Ginger Root",

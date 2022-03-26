@@ -10,8 +10,8 @@ import java.util.List;
 
 public class ModEntityGeneration {
     public static void onEntitySpawn(final BiomeLoadingEvent event) {
-        addEntityToAllBiomes(event.getSpawns(), ModEntityTypes.COLORED_CHICKEN.get(), 40, 2, 4);
-        addEntityToAllBiomes(event.getSpawns(), ModEntityTypes.COLORED_BUNNY.get(), 40, 2, 4);
+        addEntityToAllBiomes(event.getSpawns(), ModEntityTypes.COLORED_CHICKEN.get(), 8, 1, 3);
+
     }
 
 

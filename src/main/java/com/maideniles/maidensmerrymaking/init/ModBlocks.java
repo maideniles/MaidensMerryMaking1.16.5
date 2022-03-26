@@ -1957,6 +1957,28 @@ public class ModBlocks {
             () -> new EasterEggBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.CORAL)) {
             });
 
+    public static final RegistryObject<Block> EASTER_BASKET_BLOCK = registerBlock("easter_basket_block",
+            () -> new EasterBasketBlock(Block.Properties.create(Material.BAMBOO).hardnessAndResistance(0.1F, 2.5F).notSolid().sound(SoundType.BAMBOO)) {
+            },ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> EASTER_LILY_BLOCK = registerBlock("easter_lily",
+            () -> new FlowerBlock(Effects.HEALTH_BOOST,0,Block.Properties.create(Material.PLANTS).doesNotBlockMovement().notSolid().hardnessAndResistance(0F,2.0F).sound(SoundType.PLANT)),ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> EASTER_LILY_POTTED = registerWithNullGroup("easter_lily_potted",
+            () -> new FlowerPotBlock(ModBlocks.EASTER_LILY_BLOCK.get(), AbstractBlock.Properties.create(Material.MISCELLANEOUS).zeroHardnessAndResistance().notSolid().sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> HYDRANGEA_BLOCK = registerBlock("hydrangea",
+            () -> new FlowerBlock(Effects.HEALTH_BOOST,0,Block.Properties.create(Material.PLANTS).doesNotBlockMovement().notSolid().hardnessAndResistance(0F,2.0F).sound(SoundType.PLANT)),ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> HYDRANGEA_POTTED = registerWithNullGroup("hydrangea_potted",
+            () -> new FlowerPotBlock(ModBlocks.HYDRANGEA_BLOCK.get(), AbstractBlock.Properties.create(Material.MISCELLANEOUS).zeroHardnessAndResistance().notSolid().sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> HYACINTH_BLOCK = registerBlock("hyacinth",
+            () -> new FlowerBlock(Effects.HEALTH_BOOST,0,Block.Properties.create(Material.PLANTS).doesNotBlockMovement().notSolid().hardnessAndResistance(0F,2.0F).sound(SoundType.PLANT)),ModItemGroups.MAIDENS_BLOCKS_GROUP);
+
+    public static final RegistryObject<Block> HYACINTH_POTTED = registerWithNullGroup("hyacinth_potted",
+            () -> new FlowerPotBlock(ModBlocks.HYACINTH_BLOCK.get(), AbstractBlock.Properties.create(Material.MISCELLANEOUS).zeroHardnessAndResistance().notSolid().sound(SoundType.PLANT)));
+
 
 
 

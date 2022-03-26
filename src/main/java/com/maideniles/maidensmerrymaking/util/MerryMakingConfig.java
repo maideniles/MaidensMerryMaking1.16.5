@@ -14,6 +14,10 @@ public class MerryMakingConfig {
     public static ForgeConfigSpec.BooleanValue ST_PATRICKS_DAY_ENABLED;
     public static ForgeConfigSpec.BooleanValue EASTER_ENABLED;
     public static ForgeConfigSpec.IntValue COLORED_EGG_SPAWN;
+    public static ForgeConfigSpec.IntValue EASTER_BASKET_CHEST_SPAWN;
+    public static ForgeConfigSpec.BooleanValue EASTER_LILY_ENABLED;
+    public static ForgeConfigSpec.BooleanValue HYDRANGEA_ENABLED;
+    public static ForgeConfigSpec.BooleanValue HYACINTH_ENABLED;
 
 
     static {
@@ -45,6 +49,18 @@ public class MerryMakingConfig {
 
             COLORED_EGG_SPAWN = CLIENT_BUILDER.comment("Chickens will drop colored eggs. Set to 0 to disable")
                     .defineInRange("colored_egg_spawn", 1, 0, Integer.MAX_VALUE);
+
+            EASTER_BASKET_CHEST_SPAWN = CLIENT_BUILDER.comment("Easter baskets can spawn in chests. Set to 0 to disable")
+                    .defineInRange("easter_basket_chest_spawn", 1, 0, Integer.MAX_VALUE);
+
+            EASTER_LILY_ENABLED = CLIENT_BUILDER.comment("Enable Easter Lily flower to grow naturally in the world. Set to False to disable")
+                    .define("christmas_enabled", true);
+
+            HYDRANGEA_ENABLED = CLIENT_BUILDER.comment("Enable Hydrangea flower to grow naturally in the world. Set to False to disable. Set to False to disable")
+                    .define("christmas_enabled", true);
+
+            HYACINTH_ENABLED = CLIENT_BUILDER.comment("Enable Hyacinth flower to grow naturally in the world. Set to False to disable. Set to False to disable")
+                    .define("christmas_enabled", true);
 
 
         }

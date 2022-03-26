@@ -86,6 +86,20 @@ public class ModConfiguredFeatures {
 
 // END EASTER EGGS CONFIG//
 
+    public static final ConfiguredFeature<?, ?> EASTER_LILY_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
+            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.EASTER_LILY_BLOCK.get().getDefaultState()),
+                    SimpleBlockPlacer.PLACER)).tries(8).build())
+            .withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).count(1);
+
+    public static final ConfiguredFeature<?, ?> HYDRANGEA_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
+            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.HYDRANGEA_BLOCK.get().getDefaultState()),
+                    SimpleBlockPlacer.PLACER)).tries(6).build())
+            .withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).count(1);
+
+    public static final ConfiguredFeature<?, ?> HYACINTH_CONFIG = Feature.RANDOM_PATCH.withConfiguration((
+            new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.HYACINTH_BLOCK.get().getDefaultState()),
+                    SimpleBlockPlacer.PLACER)).tries(8).build())
+            .withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).count(1);
 
     private static <C extends IFeatureConfig, F extends Feature<C>> F register(String key, F value) {
         return Registry.register(Registry.FEATURE, key, value);

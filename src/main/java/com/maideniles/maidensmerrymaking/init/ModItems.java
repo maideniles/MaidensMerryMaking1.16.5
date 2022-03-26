@@ -4,6 +4,7 @@ import com.maideniles.maidensmerrymaking.MaidensMerryMaking;
 import com.maideniles.maidensmerrymaking.items.*;
 import com.maideniles.maidensmerrymaking.items.armor.RedChristmasArmorItem;
 import com.maideniles.maidensmerrymaking.items.armor.ReindeerEarsArmorItem;
+import com.maideniles.maidensmerrymaking.items.armor.model.BunnyHoodArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraft.potion.EffectInstance;
@@ -242,7 +243,7 @@ public class ModItems {
 
     //BEGIN EASTER ITEMS//
     public static final RegistryObject<Item> ANGORA_WOOL = ITEMS.register("angora_wool",
-            () -> new Item(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+            () -> new AngoraWoolItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
     public static final RegistryObject<Item> EASTER_CARD = ITEMS.register("easter_card",
             () -> new CardItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
@@ -268,9 +269,46 @@ public class ModItems {
             () -> new ModSpawnEggItem(ModEntityTypes.COLORED_CHICKEN, 0x464F56, 0x1D6336,
                     new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
-    public static final RegistryObject<ModSpawnEggItem> COLORED_BUNNY_SPAWN_EGG = ITEMS.register("colored_bunny_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.COLORED_BUNNY, 0x464F56, 0x1D6336,
+    public static final RegistryObject<ModSpawnEggItem> PINK_BUNNY_SPAWN_EGG = ITEMS.register("pink_bunny_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.PINK_BUNNY, 0x464F56, 0x1D6336,
                     new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<ModSpawnEggItem> PURPLE_BUNNY_SPAWN_EGG = ITEMS.register("purple_bunny_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.PURPLE_BUNNY, 0x464F56, 0x1D6336,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+
+    public static final RegistryObject<ModSpawnEggItem> BLUE_BUNNY_SPAWN_EGG = ITEMS.register("blue_bunny_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.BLUE_BUNNY, 0x464F56, 0x1D6336,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+
+    public static final RegistryObject<ModSpawnEggItem> CYAN_BUNNY_SPAWN_EGG = ITEMS.register("cyan_bunny_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.CYAN_BUNNY, 0x464F56, 0x1D6336,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+
+    public static final RegistryObject<ModSpawnEggItem> YELLOW_BUNNY_SPAWN_EGG = ITEMS.register("yellow_bunny_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.YELLOW_BUNNY, 0x464F56, 0x1D6336,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> BUNNY_HOOD = ITEMS.register("bunny_hood",
+            () -> new BunnyHoodArmorItem(ModArmorMaterial.ANGORA_WOOL, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> BUNNY_COSTUME = ITEMS.register("bunny_costume",
+            () -> new ArmorItem(ModArmorMaterial.ANGORA_WOOL, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> BUNNY_PANTS = ITEMS.register("bunny_pants",
+            () -> new ArmorItem(ModArmorMaterial.ANGORA_WOOL, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> BUNNY_FEET = ITEMS.register("bunny_feet",
+            () -> new ArmorItem(ModArmorMaterial.ANGORA_WOOL, EquipmentSlotType.FEET,
+                    new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+
 
 
 

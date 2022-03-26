@@ -15,7 +15,8 @@ public enum ModArmorMaterial implements IArmorMaterial {
     RED_WOOL("red_wool", 25, new int[] {3, 6, 8, 3}, 10, Items.DIAMOND, "item.armor.equip_leather", 2.0f, 0.0f),
     GREEN_WOOL("green_wool", 25, new int[] {3, 6, 8, 3}, 10, Items.DIAMOND, "item.armor.equip_leather", 2.0f, 0.0f),
     RED_SANTA_HAT("red_santa_hat", 25, new int[] {3, 6, 8, 3}, 10, Items.DIAMOND, "item.armor.equip_leather", 2.0f, 0.0f),
-    REINDEER_EARS("reindeerEars", 25, new int[] {3, 6, 8, 3}, 10, Items.DIAMOND, "item.armor.equip_leather", 2.0f, 0.0f);
+    REINDEER_EARS("reindeerEars", 25, new int[] {3, 6, 8, 3}, 10, Items.DIAMOND, "item.armor.equip_leather", 2.0f, 0.0f),
+    ANGORA_WOOL("angora", 25, new int[] {3, 6, 8, 3}, 10, Items.DIAMOND, "item.armor.equip_leather", 2.0f, 0.0f);
 
 
     private static final int[] max_damage_array = new int[]{13, 15, 16, 11};

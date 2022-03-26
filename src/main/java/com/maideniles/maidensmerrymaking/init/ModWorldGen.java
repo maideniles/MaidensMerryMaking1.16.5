@@ -54,6 +54,38 @@ public class ModWorldGen {
             }
         }
 
+        if (types.contains(BiomeDictionary.Type.JUNGLE) || types.contains(BiomeDictionary.Type.CONIFEROUS)) {
+            List<Supplier<ConfiguredFeature<?, ?>>> base =
+                    event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
+
+            if (MerryMakingConfig.EASTER_LILY_ENABLED.get() == Boolean.TRUE) {
+                base.add(() -> ModConfiguredFeatures.EASTER_LILY_CONFIG);
+
+            }
+        }
+
+        if (types.contains(BiomeDictionary.Type.FOREST) || types.contains(BiomeDictionary.Type.MOUNTAIN) || types.contains(BiomeDictionary.Type.HILLS)) {
+            List<Supplier<ConfiguredFeature<?, ?>>> base =
+                    event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
+
+            if (MerryMakingConfig.HYDRANGEA_ENABLED.get() == Boolean.TRUE) {
+                base.add(() -> ModConfiguredFeatures.HYDRANGEA_CONFIG);
+
+            }
+        }
+
+        if (types.contains(BiomeDictionary.Type.SWAMP) || types.contains(BiomeDictionary.Type.PLAINS) || types.contains(BiomeDictionary.Type.PLATEAU) || types.contains(BiomeDictionary.Type.RIVER)) {
+            List<Supplier<ConfiguredFeature<?, ?>>> base =
+                    event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
+
+            if (MerryMakingConfig.HYACINTH_ENABLED.get() == Boolean.TRUE) {
+                base.add(() -> ModConfiguredFeatures.HYACINTH_CONFIG);
+
+            }
+        }
+
+
+
         // BEGIN ADDING EASTER EGGS TO WORLDGEN//
         if (types.contains(BiomeDictionary.Type.MESA) || types.contains(BiomeDictionary.Type.FOREST) || types.contains(BiomeDictionary.Type.PLAINS)
         || types.contains(BiomeDictionary.Type.MOUNTAIN) || types.contains(BiomeDictionary.Type.HILLS) || types.contains(BiomeDictionary.Type.SWAMP)

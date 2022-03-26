@@ -16,7 +16,11 @@ public class ModEventBusEvents {
     @SubscribeEvent
     public static void addEntityAttributes(EntityAttributeCreationEvent event) {
         event.put(ModEntityTypes.COLORED_CHICKEN.get(), ColoredChickenEntity.setCustomAttributes().create());
-        event.put(ModEntityTypes.COLORED_BUNNY.get(), ColoredBunnyEntity.setCustomAttributes().create());
+        event.put(ModEntityTypes.PINK_BUNNY.get(), ColoredBunnyEntity.setCustomAttributes().create());
+        event.put(ModEntityTypes.PURPLE_BUNNY.get(), ColoredBunnyEntity.setCustomAttributes().create());
+        event.put(ModEntityTypes.BLUE_BUNNY.get(), ColoredBunnyEntity.setCustomAttributes().create());
+        event.put(ModEntityTypes.CYAN_BUNNY.get(), ColoredBunnyEntity.setCustomAttributes().create());
+        event.put(ModEntityTypes.YELLOW_BUNNY.get(), ColoredBunnyEntity.setCustomAttributes().create());
 
     }
 

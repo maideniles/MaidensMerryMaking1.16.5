@@ -1,0 +1,31 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "maidensmerrymaking:easter_enabled"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+           "   ",
+		   "D D",
+		   "DWD"
+        ],
+        "key": {
+          "W": {
+            "item": "maidensmerrymaking:angora_wool"
+          },
+          "D": {
+            "item": "minecraft:diamond"
+          }
+        },
+        "result": {
+          "item": "maidensmerrymaking:bunny_feet"
+        }
+      }
+    }
+  ]
+}

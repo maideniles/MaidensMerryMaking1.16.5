@@ -496,6 +496,13 @@ public class RenderLayers {
         RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_WHITE_FLOWERS_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
         RenderTypeLookup.setRenderLayer(ModBlocks.YELLOW_ZIGZAG_EASTER_EGG_BLOCK.get(), RenderType.getCutoutMipped());
         RenderTypeLookup.setRenderLayer(ModBlocks.EASTER_BASKET_TROPHY_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EASTER_BASKET_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EASTER_LILY_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EASTER_LILY_POTTED.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.HYDRANGEA_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.HYDRANGEA_POTTED.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.HYACINTH_BLOCK.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(ModBlocks.HYACINTH_POTTED.get(), RenderType.getCutoutMipped());
 
 
 

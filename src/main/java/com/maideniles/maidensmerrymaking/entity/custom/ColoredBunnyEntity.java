@@ -13,6 +13,7 @@ import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.monster.SlimeEntity;
 import net.minecraft.entity.passive.RabbitEntity;
 import net.minecraft.entity.passive.TameableEntity;
+import net.minecraft.entity.passive.WolfEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -30,6 +31,7 @@ import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.*;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.api.distmarker.Dist;
@@ -47,7 +49,8 @@ public class ColoredBunnyEntity extends TameableEntity {
     protected static final DataParameter<Byte> TAMED = EntityDataManager.createKey(TameableEntity.class, DataSerializers.BYTE);
     protected static final DataParameter<Optional<UUID>> OWNER_UNIQUE_ID = EntityDataManager.createKey(TameableEntity.class, DataSerializers.OPTIONAL_UNIQUE_ID);
     private static final DataParameter<Integer> BUNNY_SIZE = EntityDataManager.createKey(ColoredBunnyEntity.class, DataSerializers.VARINT);
-
+     public float squishFactor;
+    public float prevSquishFactor;
     private boolean sitting;
 
     private int jumpTicks;
@@ -56,15 +59,17 @@ public class ColoredBunnyEntity extends TameableEntity {
     private int currentMoveTypeDuration;
     private int carrotTicks;
 
+
     public ColoredBunnyEntity(EntityType<? extends TameableEntity> p_i50247_1_, World p_i50247_2_) {
         super(p_i50247_1_, p_i50247_2_);
         this.jumpController = new JumpHelperController(this);
         this.moveController = new MoveHelperController(this);
         this.setupTamedAI();
 
+
     }
 
-    protected void setBunnySize(int size, boolean resetHealth) {
+    public void setBunnySize(int size, boolean resetHealth) {
         this.dataManager.set(BUNNY_SIZE, size);
         this.recenterBoundingBox();
         this.recalculateSize();
@@ -85,6 +90,7 @@ public class ColoredBunnyEntity extends TameableEntity {
     protected void registerData() {
         super.registerData();
         this.dataManager.register(BUNNY_SIZE, 1);
+
     }
 
     public void notifyDataManagerChange(DataParameter<?> key) {
@@ -100,10 +106,21 @@ public class ColoredBunnyEntity extends TameableEntity {
         super.notifyDataManagerChange(key);
     }
 
+    public void recalculateSize() {
+        double d0 = this.getPosX();
+        double d1 = this.getPosY();
+        double d2 = this.getPosZ();
+        super.recalculateSize();
+        this.setPosition(d0, d1, d2);
+    }
+
+
+
+
     @Nullable
     public ILivingEntityData onInitialSpawn(IServerWorld worldIn, DifficultyInstance difficultyIn, SpawnReason reason, @Nullable ILivingEntityData spawnDataIn, @Nullable CompoundNBT dataTag) {
-        int i = this.rand.nextInt(3);
-        if (i < 2 && this.rand.nextFloat() < 0.5F * difficultyIn.getClampedAdditionalDifficulty()) {
+        int i = this.rand.nextInt(2);
+        if (i < 1 && this.rand.nextFloat() < 0.5F * difficultyIn.getClampedAdditionalDifficulty()) {
             ++i;
         }
 
@@ -119,6 +136,9 @@ public class ColoredBunnyEntity extends TameableEntity {
     public EntitySize getSize(Pose poseIn) {
         return super.getSize(poseIn).scale(0.255F * (float)this.getBunnySize());
     }
+
+
+
 
 
     @Override
