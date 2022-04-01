@@ -1,0 +1,82 @@
+{
+  "parent": "maidensmerrymaking:root",
+  "display": {
+    "icon": {
+      "item": "maidensmerrymaking:blue_egg"
+
+
+    },
+    "title":{
+      "text": "Egg-celent Taste",
+      "color": "yellow"
+    },
+    "description": {
+      "text": "Collect all 4 colored egg drops from the Yellow Chickens",
+      "color": "white"
+    },
+      "frame": "challenge",
+      "show_toast": true,
+
+      "announce_to_chat": true,
+      "hidden": false
+
+  },
+
+  "criteria": {
+    "pink_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "maidensmerrymaking:pink_egg"
+          }
+        ]
+      }
+    },
+    "purple_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "maidensmerrymaking:purple_egg"
+          }
+        ]
+      }
+    },
+    "blue_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "maidensmerrymaking:blue_egg"
+          }
+        ]
+      }
+    },
+    "yellow_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "maidensmerrymaking:yellow_egg"
+          }
+        ]
+      }
+    }
+  },
+   "requirements": [
+    [
+      "pink_egg"
+    ],
+    [
+      "purple_egg"
+    ],
+	[
+      "blue_egg"
+    ],
+	[
+      "yellow_egg"
+    ]
+    
+  ]
+}

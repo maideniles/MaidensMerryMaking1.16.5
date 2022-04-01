@@ -1,0 +1,42 @@
+{
+  "parent": "maidensmerrymaking:root",
+  "display": {
+    "icon": {
+      "item": "maidensmerrymaking:easter_basket_block"
+
+
+    },
+    "title":{
+      "text": "A Tisket, A Tasket...",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Find an Easter Basket",
+      "color": "white"
+    },
+      "frame": "challenge",
+      "show_toast": true,
+
+      "announce_to_chat": true,
+      "hidden": false
+
+  },
+
+  "criteria": {
+    "easter_basket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "maidensmerrymaking:easter_basket_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "easter_basket"
+    ]
+  ]
+}

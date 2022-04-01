@@ -2,10 +2,13 @@ package com.maideniles.maidensmerrymaking.data;
 
 import com.maideniles.maidensmerrymaking.init.ModBlocks;
 import net.minecraft.block.Block;
-import net.minecraft.data.loot.BlockLootTables;
+import net.minecraft.data.DataGenerator;
 import net.minecraftforge.fml.RegistryObject;
 
-public class ModBlockLootTables extends BlockLootTables {
+public class ModBlockLootTables extends BaseLootTableProvider {
+    public ModBlockLootTables(DataGenerator dataGeneratorIn) {
+        super(dataGeneratorIn);
+    }
     @Override
     protected void addTables() {
 
@@ -107,7 +110,6 @@ public class ModBlockLootTables extends BlockLootTables {
    //
     }
 
-    @Override
     protected Iterable<Block> getKnownBlocks() {
         return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
     }

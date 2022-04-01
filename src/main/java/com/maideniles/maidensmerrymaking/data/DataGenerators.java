@@ -14,6 +14,6 @@ public class DataGenerators {
         DataGenerator generator = event.getGenerator();
 
 
-        generator.addProvider(new ModLootTableProvider(generator));
+        generator.addProvider(new ModBlockLootTables(generator));
     }
 }

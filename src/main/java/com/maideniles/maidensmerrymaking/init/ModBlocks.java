@@ -488,11 +488,11 @@ public class ModBlocks {
                 return 12;
             })));
 
-    public static final RegistryObject<Block> LAMP_POST_BOTTOM = registerBlock("lamp_post_bottom",
-            () -> new LampPostBottom(Block.Properties.create(Material.IRON).hardnessAndResistance(0.5F, 2.0F).notSolid()), null);
+    public static final RegistryObject<Block> LAMP_POST_BOTTOM = registerWithNullGroup("lamp_post_bottom",
+            () -> new LampPostBottom(Block.Properties.create(Material.IRON).hardnessAndResistance(0.5F, 2.0F).notSolid()));
 
-    public static final RegistryObject<Block> LAMP_POST_POLE = registerBlock("lamp_post_pole",
-            () -> new LampPostPole(Block.Properties.create(Material.IRON).hardnessAndResistance(0.5F, 2.0F).notSolid()), null);
+    public static final RegistryObject<Block> LAMP_POST_POLE = registerWithNullGroup("lamp_post_pole",
+            () -> new LampPostPole(Block.Properties.create(Material.IRON).hardnessAndResistance(0.5F, 2.0F).notSolid()));
 
     //LAMP POST WITH DECORATIONS//
     public static final RegistryObject<Block> LAMP_POST_POLE_WREATH = BLOCKS.register("lamp_post_pole_wreath",
