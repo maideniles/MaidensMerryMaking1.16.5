@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		
+		
+		{
+			"item": "minecraft:red_dye"
+		},
+						
+		{
+			"item": "maidensmerrymaking:candle"
+		}
+		
+		
+	],
+	"result": {
+		"item": "maidensmerrymaking:red_candle",
+		"count": 4
+	}
+}
