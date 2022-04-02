@@ -39,7 +39,7 @@
       "trigger": "maidensmerrymaking:has_advancement",
 	  
 		"conditions": {
-        "advancement": "maidensmerrymaking:dots"
+        "advancement": "maidensmerrymaking:polka_dots"
 			}
       },
 	  
