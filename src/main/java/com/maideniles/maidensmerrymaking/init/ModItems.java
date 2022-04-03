@@ -253,16 +253,16 @@ public class ModItems {
                     .setAlwaysEdible().build()).group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 //CHICKEN EASTER EGG DROPS//
     public static final RegistryObject<Item> PURPLE_EGG = ITEMS.register("purple_egg",
-            () -> new EggItem(new Item.Properties().group(null)));
+            () -> new EggItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
     public static final RegistryObject<Item> PINK_EGG = ITEMS.register("pink_egg",
-            () -> new EggItem(new Item.Properties().group(null)));
+            () -> new EggItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
     public static final RegistryObject<Item> BLUE_EGG = ITEMS.register("blue_egg",
-            () -> new EggItem(new Item.Properties().group(null)));
+            () -> new EggItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
     public static final RegistryObject<Item> YELLOW_EGG = ITEMS.register("yellow_egg",
-            () -> new EggItem(new Item.Properties().group(null)));
+            () -> new EggItem(new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
 
     public static final RegistryObject<ModSpawnEggItem> COLORED_CHICKEN_SPAWN_EGG = ITEMS.register("colored_chicken_spawn_egg",
