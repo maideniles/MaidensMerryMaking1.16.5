@@ -1,29 +1,29 @@
 {
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-	
+	"parent": "maidensmerrymaking:easter/eggstraordinaire",
     "display": {
         "title": {
-            "text": "Find all the Striped Eggs",
+            "text": "Find all the Flower Eggs",
             "color": "aqua"
         },
         "description": {
             "text": "Description"
         },
         "icon": {
-            "item": "maidensmerrymaking:purple_stripes_easter_egg_block"
+            "item": "maidensmerrymaking:cyan_white_flowers_easter_egg_block"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "Purple Multi Stripes": {
+        "Purple Pink Flower": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "maidensmerrymaking:cyan_monochrome_easter_egg_block",
+                        "item": "maidensmerrymaking:purple_pink_flower_easter_egg_block",
                         "count": {
                             "min": 1,
                             "max": 1
@@ -32,12 +32,12 @@
                 ]
             }
         },
-        "Cyan Stripes": {
+        "Cyan White Flowers": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "maidensmerrymaking:yellow_monochrome_easter_egg_block",
+                        "item": "maidensmerrymaking:cyan_white_flowers_easter_egg_block",
                         "count": {
                             "min": 1,
                             "max": 1
@@ -46,12 +46,12 @@
                 ]
             }
         },
-        "Pink Stripes": {
+        "Yellow White Flowers": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "maidensmerrymaking:pink_monochrome_easter_egg_block",
+                        "item": "maidensmerrymaking:yellow_white_flowers_easter_egg_block",
                         "count": {
                             "min": 1,
                             "max": 1
@@ -60,12 +60,26 @@
                 ]
             }
         },
-        "Yellow Stripes": {
+        "Pink White Flowers": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "maidensmerrymaking:purple_stripes_easter_egg_block",
+                        "item": "maidensmerrymaking:pink_white_flowers_easter_egg_block",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "Blue White Flowers": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "maidensmerrymaking:blue_white_flowers_easter_egg_block",
                         "count": {
                             "min": 1,
                             "max": 1
@@ -77,10 +91,11 @@
     },
     "requirements": [
         
-           [ "Purple Multi Stripes"],
-          [  "Cyan Stripes"],
-            ["Pink Stripes"],
-           [ "Yellow Stripes"]
+            ["Purple Pink Flower"],
+            ["Cyan White Flowers"],
+            ["Yellow White Flowers"],
+            ["Pink White Flowers"],
+            ["Blue White Flowers"]
         
     ]
 }

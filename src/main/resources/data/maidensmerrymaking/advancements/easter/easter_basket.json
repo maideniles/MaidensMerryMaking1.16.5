@@ -1,17 +1,17 @@
 {
-  "parent": "maidensmerrymaking:root",
+  "parent": "maidensmerrymaking:easter/root",
   "display": {
     "icon": {
-      "item": "maidensmerrymaking:easter_card"
+      "item": "maidensmerrymaking:easter_basket_block"
 
 
     },
     "title":{
-      "text": "A Gift From The Past",
-      "color": "light_purple"
+      "text": "A Tisket, A Tasket...",
+      "color": "aqua"
     },
     "description": {
-      "text": "Find a leftover present inside an old Easter Card",
+      "text": "Find an Easter Basket",
       "color": "white"
     },
       "frame": "challenge",
@@ -23,12 +23,12 @@
   },
 
   "criteria": {
-    "easter_card": {
-      "trigger": "minecraft:consume_item",
+    "easter_basket": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "maidensmerrymaking:easter_card"
+            "item": "maidensmerrymaking:easter_basket_block"
           }
         ]
       }
@@ -36,7 +36,7 @@
   },
   "requirements": [
     [
-      "easter_card"
+      "easter_basket"
     ]
   ]
 }

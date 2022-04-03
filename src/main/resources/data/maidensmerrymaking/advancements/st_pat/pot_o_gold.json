@@ -1,18 +1,18 @@
 {
-  "parent": "maidensmerrymaking:root",
+  "parent": "maidensmerrymaking:st_pat/root",
   "display": {
     "icon": {
-      "item": "maidensmerrymaking:easter_basket_block"
+      "item": "maidensmerrymaking:pot_o_gold_block"
 
 
     },
     "title":{
-      "text": "A Tisket, A Tasket...",
-      "color": "aqua"
+      "text": "Trap? What Trap?",
+      "color": "white"
     },
     "description": {
-      "text": "Find an Easter Basket",
-      "color": "white"
+      "text": "Successfully loot a pot of gold from the, uh, pot of gold...or die trying.",
+      "color": "dark_green"
     },
       "frame": "challenge",
       "show_toast": true,
@@ -23,12 +23,12 @@
   },
 
   "criteria": {
-    "easter_basket": {
+    "pot_o_gold": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "maidensmerrymaking:easter_basket_block"
+            "item": "maidensmerrymaking:pot_o_gold_block"
           }
         ]
       }
@@ -36,7 +36,7 @@
   },
   "requirements": [
     [
-      "easter_basket"
+      "pot_o_gold"
     ]
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "parent": "maidensmerrymaking:root",
+	"parent": "maidensmerrymaking:easter/root",
+ 
   "display": {
     "icon": {
       "item": "maidensmerrymaking:blue_egg"

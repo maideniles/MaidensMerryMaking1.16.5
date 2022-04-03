@@ -2,6 +2,7 @@ package com.maideniles.maidensmerrymaking.init;
 
 import com.maideniles.maidensmerrymaking.MaidensMerryMaking;
 import com.maideniles.maidensmerrymaking.util.ChristmasEnabledCondition;
+import com.maideniles.maidensmerrymaking.util.EasterEnabledCondition;
 import com.maideniles.maidensmerrymaking.util.StPatricksDayEnabledCondition;
 import net.minecraft.item.crafting.IRecipeSerializer;
 
@@ -17,5 +18,6 @@ public class ModConditions {
     public static void registerSerializers(RegistryEvent.Register<IRecipeSerializer<?>> evt) {
         CraftingHelper.register(new ChristmasEnabledCondition.Serializer());
         CraftingHelper.register(new StPatricksDayEnabledCondition.Serializer());
+        CraftingHelper.register(new EasterEnabledCondition.Serializer());
     }
 }

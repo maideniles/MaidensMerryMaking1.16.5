@@ -1,6 +1,6 @@
 {
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-	
+	"parent": "maidensmerrymaking:easter/eggstraordinaire",
     "display": {
         "title": {
             "text": "Find the Rainbow Egg",

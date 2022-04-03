@@ -1,0 +1,49 @@
+{
+  "parent": "maidensmerrymaking:easter/root",
+  "display": {
+    "icon": {
+      "item": "maidensmerrymaking:easter_basket_trophy_block"
+    },
+    "title": {
+      "text": "Egg-Hunger, Extraordinaire!",
+      "color": "aqua"
+
+    },
+    "description": {
+      "text": "Find all the different types of Easter Eggs!",
+      "color": "light_purple"
+    },
+      "frame": "challenge",
+
+      "show_toast": true,
+
+      "announce_to_chat": true,
+      "hidden": false
+
+
+  },
+
+  "criteria": {
+	  
+    "stripes": {
+	   "trigger": "maidensmerrymaking:has_advancement",
+	  	"conditions": {
+        "advancement": "maidensmerrymaking:easter/find_eggs/stripes"
+			}
+      }
+	  
+	 
+	 },  
+	  
+	    "requirements": [
+         [       
+          "stripes"]
+        
+    ],
+	
+  "rewards": {
+    "loot": [
+      "maidensmerrymaking:easter_basket_trophy_block"
+    ]
+  }
+}

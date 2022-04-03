@@ -1,13 +1,13 @@
 {
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-	
+	"parent": "maidensmerrymaking:easter/root",
     "display": {
         "title": {
-            "text": "It's So Fluffy!",
+            "text": "Nice Buns You've Got There!",
             "color": "aqua"
         },
         "description": {
-            "text": "Find a Pet Bunny in an Easter Basket and make it your pet."
+            "text": "Tame all 5 colors of Bunny Pets."
         },
         "icon": {
             "item": "maidensmerrymaking:rainbow_easter_egg_block"
@@ -63,13 +63,11 @@
         }
     },
     "requirements": [
-	[
-         "pink_bun",
-		"purple_bun",
-		"blue_bun",
-		"yellow_bun",
-		"cyan_bun"
-		]
+        ["pink_bun"],
+		["purple_bun"],
+		["blue_bun"],
+		["yellow_bun"],
+		["cyan_bun"]
 		
     ]
 }

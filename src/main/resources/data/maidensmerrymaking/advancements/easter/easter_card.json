@@ -1,0 +1,42 @@
+{
+ "parent": "maidensmerrymaking:easter/root",
+  "display": {
+    "icon": {
+      "item": "maidensmerrymaking:easter_card"
+
+
+    },
+    "title":{
+      "text": "A Gift From The Past",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Find a leftover present inside an old Easter Card",
+      "color": "white"
+    },
+      "frame": "challenge",
+      "show_toast": true,
+
+      "announce_to_chat": true,
+      "hidden": false
+
+  },
+
+  "criteria": {
+    "easter_card": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "item": "maidensmerrymaking:easter_card"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "easter_card"
+    ]
+  ]
+}

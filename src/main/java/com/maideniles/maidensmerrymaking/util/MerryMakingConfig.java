@@ -45,7 +45,7 @@ public class MerryMakingConfig {
 
 //BEGIN EASTER CONTENT//
             EASTER_ENABLED = CLIENT_BUILDER.comment("Enable Easter content--egg world gen, etc.")
-                    .define("st_patricks_day_enabled", true);
+                    .define("easter_enabled", true);
 
             COLORED_EGG_SPAWN = CLIENT_BUILDER.comment("Chickens will drop colored eggs. Set to 0 to disable")
                     .defineInRange("colored_egg_spawn", 1, 0, Integer.MAX_VALUE);
@@ -54,13 +54,13 @@ public class MerryMakingConfig {
                     .defineInRange("easter_basket_chest_spawn", 1, 0, Integer.MAX_VALUE);
 
             EASTER_LILY_ENABLED = CLIENT_BUILDER.comment("Enable Easter Lily flower to grow naturally in the world. Set to False to disable")
-                    .define("christmas_enabled", true);
+                    .define("easter_lily_enabled", true);
 
             HYDRANGEA_ENABLED = CLIENT_BUILDER.comment("Enable Hydrangea flower to grow naturally in the world. Set to False to disable. Set to False to disable")
-                    .define("christmas_enabled", true);
+                    .define("hydrangea_enabled", true);
 
             HYACINTH_ENABLED = CLIENT_BUILDER.comment("Enable Hyacinth flower to grow naturally in the world. Set to False to disable. Set to False to disable")
-                    .define("christmas_enabled", true);
+                    .define("hyacinth_enabled", true);
 
 
         }
