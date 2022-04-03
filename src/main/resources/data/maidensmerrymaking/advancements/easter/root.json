@@ -13,7 +13,7 @@
     "color": "light_purple"
   },
 
-    "background": "minecraft:textures/block/purpur",
+    "background": "minecraft:textures/block/purpur_block.png",
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false

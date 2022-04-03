@@ -21,7 +21,7 @@ import java.util.Set;
 
 public class EggstraordinaireTrigger implements ICriterionTrigger<EggstraordinaireTrigger.Instance> {
 
-    private static final ResourceLocation ID = MaidensMerryMaking.prefix("has_advancement");
+    private static final ResourceLocation ID = MaidensMerryMaking.prefix("found_eggs");
     private final Map<PlayerAdvancements, Listeners> listeners = Maps.newHashMap();
 
     @Override

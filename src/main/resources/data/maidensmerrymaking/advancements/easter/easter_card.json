@@ -11,7 +11,7 @@
       "color": "light_purple"
     },
     "description": {
-      "text": "Find a leftover present inside an old Easter Card",
+      "text": "Find an old Easter Card in a chest somewhere.",
       "color": "white"
     },
       "frame": "challenge",
@@ -24,7 +24,7 @@
 
   "criteria": {
     "easter_card": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {

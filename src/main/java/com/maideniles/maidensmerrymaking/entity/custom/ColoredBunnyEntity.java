@@ -314,7 +314,7 @@ public class ColoredBunnyEntity extends TameableEntity {
 //TODO //
 // PUT READ/WRITE HERE//
     public static AttributeModifierMap.MutableAttribute setCustomAttributes() {
-        return MobEntity.func_233666_p_().createMutableAttribute(Attributes.MAX_HEALTH, 3.0D).createMutableAttribute(Attributes.MOVEMENT_SPEED, (double)0.75F);
+        return MobEntity.func_233666_p_().createMutableAttribute(Attributes.MAX_HEALTH, 3.0D).createMutableAttribute(Attributes.MOVEMENT_SPEED, (double)0.4F);
     }
 
     protected SoundEvent getJumpSound() {

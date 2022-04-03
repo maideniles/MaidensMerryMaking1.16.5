@@ -10,7 +10,7 @@
             "text": "Find a Pet Bunny in an Easter Basket and make it your pet."
         },
         "icon": {
-            "item": "maidensmerrymaking:rainbow_easter_egg_block"
+            "item": "maidensmerrymaking:bunny_face"
         },
         "frame": "goal",
         "show_toast": true,

@@ -117,92 +117,135 @@
 "block.maidensmerrymaking.hyacinth_potted": "Potted Hyacinth",
 
 
-"block.maidensmerrymaking.blue_multi_dots_easter_egg_block": "Easter Egg Decoration Block",
+"block.maidensmerrymaking.blue_multi_dots_easter_egg_block": "Blue with Multi Dots Easter Egg",
 "block.maidensmerrymaking.blue_multi_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.blue_purple_fade_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.blue_purple_fade_dots_easter_egg_block": "Blue and Purple with Dots Easter Egg",
 "block.maidensmerrymaking.blue_purple_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.blue_purple_fade_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.blue_purple_fade_easter_egg_block": "Blue and Purple Easter Egg",
 "block.maidensmerrymaking.blue_purple_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.blue_purple_fade_zigzag_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.blue_purple_fade_zigzag_easter_egg_block": "Blue and Purple with Chevron Easter Egg",
 "block.maidensmerrymaking.blue_purple_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.blue_white_flowers_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.blue_white_flowers_easter_egg_block": "Blue with White Flowers Easter Egg",
 "block.maidensmerrymaking.blue_white_flowers_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.blue_zigzag_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.blue_zigzag_easter_egg_block": "Blue with Chevron Easter Egg",
 "block.maidensmerrymaking.blue_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.cyan_blue_fade_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_blue_fade_dots_easter_egg_block": "Cyan and Blue with Dots Easter Egg",
 "block.maidensmerrymaking.cyan_blue_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.cyan_blue_fade_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_blue_fade_easter_egg_block": "Cyan and Blue Easter Egg",
 "block.maidensmerrymaking.cyan_blue_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.cyan_blue_fade_zigzag_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_blue_fade_zigzag_easter_egg_block": "Cyan and Blue with Chevron Easter Egg",
 "block.maidensmerrymaking.cyan_blue_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.cyan_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_dots_easter_egg_block": "Cyan with Multi Dots Easter Egg",
 "block.maidensmerrymaking.cyan_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.cyan_monochrome_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_monochrome_easter_egg_block": "Cyan Stripes Easter Egg",
 "block.maidensmerrymaking.cyan_monochrome_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.cyan_multi_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_multi_dots_easter_egg_block": "Cyan with Multi Dots Easter Egg",
 "block.maidensmerrymaking.cyan_multi_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.cyan_purple_fade_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_purple_fade_dots_easter_egg_block": "Cyan and Purple with Dots Easter Egg",
 "block.maidensmerrymaking.cyan_purple_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.cyan_purple_fade_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_purple_fade_easter_egg_block": "Cyan and Purple Easter Egg",
 "block.maidensmerrymaking.cyan_purple_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.cyan_purple_fade_zigzag_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_purple_fade_zigzag_easter_egg_block": "Cyan and Purple with Chevron Easter Egg",
 "block.maidensmerrymaking.cyan_purple_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.cyan_white_flowers_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.cyan_white_flowers_easter_egg_block": "Cyan with White Flowers Easter Egg",
 "block.maidensmerrymaking.cyan_white_flowers_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_blue_fade_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_blue_fade_dots_easter_egg_block": "Pink and Blue with Dots Easter Egg",
 "block.maidensmerrymaking.pink_blue_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_blue_fade_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_blue_fade_easter_egg_block": "Pink and Blue Easter Egg",
 "block.maidensmerrymaking.pink_blue_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_blue_fade_zigzag_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_blue_fade_zigzag_easter_egg_block": "Pink and Blue with Chevron Easter Egg",
 "block.maidensmerrymaking.pink_blue_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_cyan_fade_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_cyan_fade_dots_easter_egg_block": "Pink and Cyan with Dots Easter Egg",
 "block.maidensmerrymaking.pink_cyan_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_cyan_fade_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_cyan_fade_easter_egg_block": "Pin and Cyan Easter Egg",
 "block.maidensmerrymaking.pink_cyan_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_cyan_fade_zigzag_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_cyan_fade_zigzag_easter_egg_block": "Pink and Cyan with Chevron Easter Egg",
 "block.maidensmerrymaking.pink_cyan_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_monochrome_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_monochrome_easter_egg_block": "Pink Stripes Easter Egg",
 "block.maidensmerrymaking.pink_monochrome_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_multi_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_multi_dots_easter_egg_block": "Pink with Multi Dots Easter Egg",
 "block.maidensmerrymaking.pink_multi_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_purple_fade_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_purple_fade_dots_easter_egg_block": "Pink and Purple with Dots Easter Egg",
 "block.maidensmerrymaking.pink_purple_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_purple_fade_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_purple_fade_easter_egg_block": "Pink and Purple Easter Egg",
 "block.maidensmerrymaking.pink_purple_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_purple_fade_zigzag_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_purple_fade_zigzag_easter_egg_block": "Pink and Purple with Chevron Easter Egg",
 "block.maidensmerrymaking.pink_purple_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.pink_white_flowers_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.pink_white_flowers_easter_egg_block": "Pink with White Flowers Easter Egg",
 "block.maidensmerrymaking.pink_white_flowers_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.purple_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.purple_dots_easter_egg_block": "Purple with Multi Dots Easter Egg",
 "block.maidensmerrymaking.purple_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.purple_pink_flower_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.purple_pink_flower_easter_egg_block": "Purple with Pink Flowers Easter Egg",
 "block.maidensmerrymaking.purple_pink_flower_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.purple_stripes_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.purple_stripes_easter_egg_block": "Purple with Multi Stripes Easter Egg",
 "block.maidensmerrymaking.purple_stripes_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.rainbow_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.rainbow_dots_easter_egg_block": "Pastel Rainbow with Dots Easter Egg",
 "block.maidensmerrymaking.rainbow_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.rainbow_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.rainbow_easter_egg_block": "Pastel Rainbow Easter Egg",
 "block.maidensmerrymaking.rainbow_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.rainbow_zigzag_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.rainbow_zigzag_easter_egg_block": "Pastel Rainbow with Chevron Easter Egg",
 "block.maidensmerrymaking.rainbow_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.yellow_blue_fade_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_blue_fade_dots_easter_egg_block": "Yellow and Blue with Dots Easter Egg",
 "block.maidensmerrymaking.yellow_blue_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.yellow_blue_fade_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_blue_fade_easter_egg_block": "Yellow and Blue Easter Egg",
 "block.maidensmerrymaking.yellow_blue_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.yellow_blue_fade_zigzag_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_blue_fade_zigzag_easter_egg_block": "Yellow and Blue with Chevron Easter Egg",
 "block.maidensmerrymaking.yellow_blue_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.yellow_monochrome_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_monochrome_easter_egg_block": "Yellow Stripes Easter Egg",
 "block.maidensmerrymaking.yellow_monochrome_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.yellow_pink_fade_dots_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_pink_fade_dots_easter_egg_block": "Yellow and Pink with Dots Easter Egg",
 "block.maidensmerrymaking.yellow_pink_fade_dots_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.yellow_pink_fade_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_pink_fade_easter_egg_block": "Yellow and Pink Easter Egg",
 "block.maidensmerrymaking.yellow_pink_fade_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.yellow_pink_fade_zigzag_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_pink_fade_zigzag_easter_egg_block": "Yellow and Pink with Chevron Easter Egg",
 "block.maidensmerrymaking.yellow_pink_fade_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.yellow_white_flowers_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_white_flowers_easter_egg_block": "Yellow with White Flowers Easter Egg",
 "block.maidensmerrymaking.yellow_white_flowers_easter_egg_gen_block": "Easter Egg Decoration Block",
-"block.maidensmerrymaking.yellow_zigzag_easter_egg_block": "Easter Egg Decoration Block",
+
+"block.maidensmerrymaking.yellow_zigzag_easter_egg_block": "Yellow with Chevron Easter Egg",
 "block.maidensmerrymaking.yellow_zigzag_easter_egg_gen_block": "Easter Egg Decoration Block",
+
 
 	
 	"block.maidensmerrymaking.mint_plant": "Mint Seeds",

@@ -266,30 +266,30 @@ public class ModItems {
 
 
     public static final RegistryObject<ModSpawnEggItem> COLORED_CHICKEN_SPAWN_EGG = ITEMS.register("colored_chicken_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.COLORED_CHICKEN, 0x464F56, 0x1D6336,
+            () -> new ModSpawnEggItem(ModEntityTypes.COLORED_CHICKEN, 16777215, 15789322,
                     new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
     public static final RegistryObject<ModSpawnEggItem> PINK_BUNNY_SPAWN_EGG = ITEMS.register("pink_bunny_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.PINK_BUNNY, 0x464F56, 0x1D6336,
+            () -> new ModSpawnEggItem(ModEntityTypes.PINK_BUNNY, 15315927, 14109586,
                     new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
     public static final RegistryObject<ModSpawnEggItem> PURPLE_BUNNY_SPAWN_EGG = ITEMS.register("purple_bunny_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.PURPLE_BUNNY, 0x464F56, 0x1D6336,
+            () -> new ModSpawnEggItem(ModEntityTypes.PURPLE_BUNNY, 13811433, 8671172,
                     new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
 
     public static final RegistryObject<ModSpawnEggItem> BLUE_BUNNY_SPAWN_EGG = ITEMS.register("blue_bunny_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.BLUE_BUNNY, 0x464F56, 0x1D6336,
+            () -> new ModSpawnEggItem(ModEntityTypes.BLUE_BUNNY, 11455972, 3512029,
                     new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
 
     public static final RegistryObject<ModSpawnEggItem> CYAN_BUNNY_SPAWN_EGG = ITEMS.register("cyan_bunny_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.CYAN_BUNNY, 0x464F56, 0x1D6336,
+            () -> new ModSpawnEggItem(ModEntityTypes.CYAN_BUNNY, 11461860, 4243391,
                     new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
 
     public static final RegistryObject<ModSpawnEggItem> YELLOW_BUNNY_SPAWN_EGG = ITEMS.register("yellow_bunny_spawn_egg",
-            () -> new ModSpawnEggItem(ModEntityTypes.YELLOW_BUNNY, 0x464F56, 0x1D6336,
+            () -> new ModSpawnEggItem(ModEntityTypes.YELLOW_BUNNY, 16448700, 13158233,
                     new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
 
     public static final RegistryObject<Item> BUNNY_HOOD = ITEMS.register("bunny_hood",
@@ -307,6 +307,9 @@ public class ModItems {
     public static final RegistryObject<Item> BUNNY_FEET = ITEMS.register("bunny_feet",
             () -> new ArmorItem(ModArmorMaterial.ANGORA_WOOL, EquipmentSlotType.FEET,
                     new Item.Properties().group(ModItemGroups.MAIDENS_ITEMS_GROUP)));
+
+    public static final RegistryObject<Item> BUNNY_FACE = ITEMS.register("bunny_face",
+            () -> new Item(new Item.Properties().group(null)));
 
 
 

@@ -10,7 +10,7 @@
             "text": "Tame all 5 colors of Bunny Pets."
         },
         "icon": {
-            "item": "maidensmerrymaking:rainbow_easter_egg_block"
+            "item": "minecraft:carrot"
         },
         "frame": "goal",
         "show_toast": true,

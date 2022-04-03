@@ -23,25 +23,66 @@
 
   },
 
-   "criteria": {
-  
+  "criteria": {
+	  
     "stripes": {
-      "trigger": "maidensmerrymaking:has_advancement",
-      "conditions": {
+	   "trigger": "maidensmerrymaking:found_eggs",
+	  	"conditions": {
         "advancement": "maidensmerrymaking:easter/find_eggs/stripes"
+			}
+      },
+	  
+	  "dots": {
+	  "trigger": "maidensmerrymaking:found_eggs",
+	 	"conditions": {
+        "advancement": "maidensmerrymaking:easter/find_eggs/polka_dots"
+			}
+      },
+	  
+	  "flowers": {
+	 "trigger": "maidensmerrymaking:found_eggs",
+		"conditions": {
+	    "advancement": "maidensmerrymaking:easter/find_eggs/flowers"
+			}
+      },
+	  
+	  "fades": {
+	  "trigger": "maidensmerrymaking:found_eggs",
+		"conditions": {
+        "advancement": "maidensmerrymaking:easter/find_eggs/fades"
+			}
+      },
+	  
+	  "zigzags": {
+	  "trigger": "maidensmerrymaking:found_eggs",
+		"conditions": {
+        "advancement": "maidensmerrymaking:easter/find_eggs/zigzags"
+			}
+      },
+	  
+	  "rainbow": {
+	  "trigger": "maidensmerrymaking:found_eggs",
+	 	"conditions": {
+        "advancement": "maidensmerrymaking:easter/find_eggs/rainbow"
+			}
       }
-    }
-  },
-  "requirements": [
-   
-    [
-      "stripes"
-    ]
-  ],
+	  
+	 },  
+	  
+	    "requirements": [
+       
+          ["dots"],
+		  ["zigzags"],
+          ["stripes"],
+          ["fades"],
+          ["rainbow"],
+		  ["flowers"]
+        
+    ],
 	
   "rewards": {
     "loot": [
-      "maidensmerrymaking:easter_basket_trophy_block"
+      "maidensmerrymaking:easter_basket_trophy_loot"
     ]
   }
 }

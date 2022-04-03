@@ -1,6 +1,3 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "maidensmerrymaking:item/blue_bunny_spawn_egg"
-    }
+  "parent": "item/template_spawn_egg"
 }
