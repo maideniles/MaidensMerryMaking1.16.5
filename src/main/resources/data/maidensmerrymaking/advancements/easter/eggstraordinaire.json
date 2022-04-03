@@ -23,23 +23,21 @@
 
   },
 
-  "criteria": {
-	  
+   "criteria": {
+  
     "stripes": {
-	   "trigger": "maidensmerrymaking:has_advancement",
-	  	"conditions": {
+      "trigger": "maidensmerrymaking:has_advancement",
+      "conditions": {
         "advancement": "maidensmerrymaking:easter/find_eggs/stripes"
-			}
       }
-	  
-	 
-	 },  
-	  
-	    "requirements": [
-         [       
-          "stripes"]
-        
-    ],
+    }
+  },
+  "requirements": [
+   
+    [
+      "stripes"
+    ]
+  ],
 	
   "rewards": {
     "loot": [
